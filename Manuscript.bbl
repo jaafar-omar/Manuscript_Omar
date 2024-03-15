@@ -1,0 +1,240 @@
+\begin{thebibliography}{}
+
+\bibitem[Afzalaghaeinaeini et~al., 2021]{afzalaghaeinaeini2021}
+Afzalaghaeinaeini, A., Seo, J., Lee, D., and Lee, H. (2021).
+\newblock Design of a lior-based de-dust filter for lidar sensors in off-road
+  vehicles.
+\newblock {\em Engineering Proceedings}, 10(1).
+
+\bibitem[{Auat Cheein} et~al., 2015]{chee2015}
+{Auat Cheein}, F.~A., Guivant, J., Sanz, R., Escolà, A., Yandún, F.,
+  Torres-Torriti, M., and Rosell-Polo, J.~R. (2015).
+\newblock Real-time approaches for characterization of fully and partially
+  scanned canopies in groves.
+\newblock {\em Computers and Electronics in Agriculture}, 118:361--371.
+
+\bibitem[Bewley et~al., 2011]{bewley2011}
+Bewley, A., Shekhar, R., Leonard, S., Upcroft, B., and Lever, P. (2011).
+\newblock Real-time volume estimation of a dragline payload.
+\newblock In {\em 2011 IEEE International Conference on Robotics and
+  Automation}, pages 1571--1576.
+
+\bibitem[Bi et~al., 2021]{bi2021}
+Bi, S., Yuan, C., Liu, C., Cheng, J., Wang, W., and Cai, Y. (2021).
+\newblock A survey of low-cost 3d laser scanning technology.
+\newblock {\em Applied Sciences}, 11(9).
+
+\bibitem[Chang et~al., 2017]{chang2017}
+Chang, W.-C., Wu, C.-H., Tsai, Y.-H., and Chiu, W.-Y. (2017).
+\newblock Object volume estimation based on 3d point cloud.
+\newblock In {\em 2017 International Automatic Control Conference (CACS)},
+  pages 1--5.
+
+\bibitem[Chua et~al., 2017]{chua2017}
+Chua, C.~K., Wong, C.~H., and Yeong, W.~Y. (2017).
+\newblock Chapter four - software and data format.
+\newblock In Chua, C.~K., Wong, C.~H., and Yeong, W.~Y., editors, {\em
+  Standards, Quality Control, and Measurement Sciences in 3D Printing and
+  Additive Manufacturing}, pages 75--94. Academic Press.
+
+\bibitem[Clar and Salaan, 2022]{clar2022}
+Clar, S.~E. and Salaan, C. J.~O. (2022).
+\newblock Volume estimation using convex hull method for point cloud-based
+  materials inside a silo.
+
+\bibitem[Duff, 2000]{duff2000}
+Duff, E. (2000).
+\newblock Automated volume estimation of haul-truck loads.
+
+\bibitem[Duysak and Yigit, 2020]{duysak2020}
+Duysak, H. and Yigit, E. (2020).
+\newblock Machine learning based quantity measurement method for grain silos.
+\newblock {\em Measurement}, 152:107279.
+
+\bibitem[Graham and {Frances Yao}, 1983]{graham1983}
+Graham, R.~L. and {Frances Yao}, F. (1983).
+\newblock Finding the convex hull of a simple polygon.
+\newblock {\em Journal of Algorithms}, 4(4):324--331.
+
+\bibitem[Guevara et~al., 2020]{geuvara2020}
+Guevara, J., Arevalo-Ramirez, T., Yandun, F., Torres-Torriti, M., and Cheein,
+  F.~A. (2020).
+\newblock Point cloud-based estimation of effective payload volume for
+  earthmoving loaders.
+\newblock {\em Automation in Construction}, 117:103207.
+
+\bibitem[Heinzler et~al., 2020]{heinzler2020}
+Heinzler, R., Piewak, F., Schindler, P., and Stork, W. (2020).
+\newblock Cnn-based lidar point cloud de-noising in adverse weather.
+\newblock {\em IEEE Robotics and Automation Letters}, 5(2):2514--2521.
+
+\bibitem[Jaboyedoff et~al., 2012]{jaboyedoff2012}
+Jaboyedoff, M., Oppikofer, T., Abell{\'a}n, A., Derron, M.-H., Loye, A.,
+  Metzger, R., and Pedrazzini, A. (2012).
+\newblock Use of lidar in landslide investigations: a review.
+\newblock {\em Natural Hazards}, 61(1):5--28.
+
+\bibitem[Jeong et~al., 2018]{jeong2018}
+Jeong, D., Li, Y., Lee, H.~J., Lee, S.~M., Yang, J., Park, S., Kim, H., Choi,
+  Y., and Kim, J. (2018).
+\newblock Efficient 3d volume reconstruction from a point cloud using a
+  phase-field method.
+\newblock {\em Mathematical Problems in Engineering}, 2018:7090186.
+
+\bibitem[Kang et~al., 2018]{kang2018}
+Kang, X., Yin, S., and Fen, Y. (2018).
+\newblock 3d reconstruction \& assessment framework based on affordable 2d
+  lidar.
+\newblock In {\em 2018 IEEE/ASME International Conference on Advanced
+  Intelligent Mechatronics AIM}, pages 292--297.
+
+\bibitem[Kim, 2002]{kim2002}
+Kim, Y. (2002).
+\newblock Convex hull ensemble machine.
+\newblock In {\em 2002 IEEE International Conference on Data Mining, 2002.
+  Proceedings.}, pages 243--249.
+
+\bibitem[Li et~al., 2020]{li2020}
+Li, Y., Ma, L., Zhong, Z., Liu, F., Cao, D., Li, J., and Chapman, M.~A. (2020).
+\newblock Deep learning for lidar point clouds in autonomous driving: A review.
+\newblock {\em IEEE Transactions on Neural Networks and Learning Systems},
+  32:3412--3432.
+
+\bibitem[Liu and Zheng, 2021]{liuY2021}
+Liu, Y. and Zheng, Y. (2021).
+\newblock Accurate volume calculation driven by delaunay triangulation for coal
+  measurement.
+\newblock {\em Scientific Programming}, 2021:6613264.
+
+\bibitem[Maus, 1984]{maus1984}
+Maus, A. (1984).
+\newblock Delaunay triangulation and the convex hull ofn points in expected
+  linear time.
+\newblock {\em BIT Numerical Mathematics}, 24(2):151--163.
+
+\bibitem[Ocando et~al., 2017]{ocando2017}
+Ocando, M.~G., Certad, N., Alvarado, S., and Terrones, {\'A}. (2017).
+\newblock Autonomous 2d slam and 3d mapping of an environment using a single 2d
+  lidar and ros.
+\newblock In {\em 2017 Latin American Robotics Symposium (LARS) and 2017
+  Brazilian Symposium on Robotics (SBR)}, pages 1--6.
+
+\bibitem[Park et~al., 2020]{park2020}
+Park, J.-I., Park, J., and Kim, K.-S. (2020).
+\newblock Fast and accurate desnowing algorithm for lidar point clouds.
+\newblock {\em IEEE Access}, 8:160202--160212.
+
+\bibitem[Putman and Popescu, 2018]{putman2018}
+Putman, E.~B. and Popescu, S.~C. (2018).
+\newblock Automated estimation of standing dead tree volume using voxelized
+  terrestrial lidar data.
+\newblock {\em IEEE Transactions on Geoscience and Remote Sensing},
+  56(11):6484--6503.
+
+\bibitem[Raj et~al., 2020]{raj2020}
+Raj, T., Hashim, F., Huddin, A., Ibrahim, M.~F., and Hussain, A. (2020).
+\newblock A survey on lidar scanning mechanisms.
+\newblock {\em Electronics}, 9:741.
+
+\bibitem[Rakotosaona et~al., 2020]{rakotosaona2020}
+Rakotosaona, M.-J., La~Barbera, V., Guerrero, P., Mitra, N.~J., and Ovsjanikov,
+  M. (2020).
+\newblock Pointcleannet: Learning to denoise and remove outliers from dense
+  point clouds.
+\newblock {\em Computer Graphics Forum}, 39(1):185--203.
+
+\bibitem[Ramiya et~al., 2017]{ramiya2017}
+Ramiya, A.~M., Nidamanuri, R.~R., and Krishnan, R. (2017).
+\newblock Segmentation based building detection approach from lidar point
+  cloud.
+\newblock {\em The Egyptian Journal of Remote Sensing and Space Science},
+  20(1):71--77.
+
+\bibitem[Rhee et~al., 2021]{rhee2021}
+Rhee, J.~H., Kim, S.~I., Lee, K.~M., Kim, M.~K., and Lim, Y.~M. (2021).
+\newblock Optimization of position and number of hotspot detectors using
+  artificial neural network and genetic algorithm to estimate material levels
+  inside a silo.
+\newblock {\em Sensors}, 21(13).
+
+\bibitem[Rusu and Cousins, 2011]{rusu2011}
+Rusu, R.~B. and Cousins, S. (2011).
+\newblock 3d is here: Point cloud library (pcl).
+\newblock In {\em 2011 IEEE International Conference on Robotics and
+  Automation}, pages 1--4.
+
+\bibitem[Sarker et~al., 2020]{sarker2020}
+Sarker, V.~K., Qingqing, L., and Westerlund, T. (2020).
+\newblock 3d perception with low-cost 2d lidar and edge computing for enhanced
+  obstacle detection.
+\newblock In {\em 2020 IEEE Conference on Industrial Cyberphysical Systems
+  (ICPS)}, volume~1, pages 49--54.
+
+\bibitem[Shamsudin, 2016]{shamsudin2016}
+Shamsudin, A. (2016).
+\newblock Fog removal using laser beam penetration, laser intensity, and
+  geometrical features for 3d measurements in fog-filled room.
+\newblock {\em Advanced Robotics}, 30.
+
+\bibitem[Stanislas et~al., 2021]{stanislas2021}
+Stanislas, L., Nubert, J., Dugas, D., Nitsch, J., S{\"u}nderhauf, N., Siegwart,
+  R., Cadena, C., and Peynot, T. (2021).
+\newblock Airborne particle classification in lidar point clouds using deep
+  learning.
+\newblock In Ishigami, G. and Yoshida, K., editors, {\em Field and Service
+  Robotics}, pages 395--410, Singapore. Springer Singapore.
+
+\bibitem[Stanislas et~al., 2018]{stanislas2018}
+Stanislas, L., Suenderhauf, N., and Peynot, T. (2018).
+\newblock Lidar-based detection of airborne particles for robust robot
+  perception.
+\newblock In Woodhead, I., editor, {\em Proceedings of the Australasian
+  Conference on Robotics and Automation (ACRA) 2018}, Australasian Conference
+  on Robotics and Automation, ACRA, pages 1--8. Australian Robotics and
+  Automation Association (ARAA), Australia.
+
+\bibitem[Turner et~al., 2017]{turner2017}
+Turner, A., Jackson, J., Koeninger, N., Mcneill, S., Montross, M., Casada, J.,
+  Boac, R., Bhadra, R., Maghirang, S., and Thompson (2017).
+\newblock Stored grain volume measurementusing a low density point cloud.
+\newblock {\em Applied Engineering in Agriculture}, 33:105--112.
+
+\bibitem[Turner et~al., 2016]{turner2016}
+Turner, A., Jackson, J., Koeninger, N., Mcneill, S., Montross, M., Casada, M.,
+  Boac, J., Bhadra, R., Maghirang, R., and Thompson, S. (2016).
+\newblock Error analysis of stored grain inventory determination.
+\newblock {\em Transactions of the ASABE (American Society of Agricultural and
+  Biological Engineers)}, 59:1061--1072.
+
+\bibitem[Vogt and Gerding, 2017]{vogt2017}
+Vogt, M. and Gerding, M. (2017).
+\newblock Silo and tank vision: Applica?tions, challenges, and technical
+  solutions for radar measurement of liquids and bulk solids in tanks and
+  silos.
+\newblock {\em IEEE Microwave Magazine}, 18(6):38--51.
+
+\bibitem[Wang et~al., 2020]{wang2020}
+Wang, Q., Tan, Y., and Mei, Z. (2020).
+\newblock Computational methods of acquisition and processing of 3d point cloud
+  data for construction applications.
+\newblock {\em Archives of Computational Methods in Engineering},
+  27(2):479--499.
+
+\bibitem[Williams and Rosentrater, 2007]{williams2007}
+Williams, G. and Rosentrater, K. (2007).
+\newblock Design considerations for the construction and operation of flour
+  milling facilities. part i: Planning, structural, and life safety
+  considerations.
+
+\bibitem[Yigit et~al., 2015]{yigit2015}
+Yigit, E., İsiker, H., Toktas, A., and Tjuatja, S. (2015).
+\newblock Cs-based radar measurement of silos level.
+\newblock In {\em 2015 IEEE International Geoscience and Remote Sensing
+  Symposium (IGARSS)}, pages 3746--3749.
+
+\bibitem[Zhu et~al., 2020]{zhu2020}
+Zhu, R., Ma, S., and Xu, D. (2020).
+\newblock Guided filter simplification method for noisy point cloud data.
+\newblock In {\em 2020 Chinese Automation Congress (CAC)}, pages 6951--6955.
+
+\end{thebibliography}

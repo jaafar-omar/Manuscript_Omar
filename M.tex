@@ -1,0 +1,74 @@
+\documentclass[a4paper,12pt]{article}
+\usepackage{indentfirst}
+\setlength{\parindent}{2.30em}
+\setcounter{tocdepth}{3}
+\setcounter{secnumdepth}{3}
+\usepackage{pdflscape}
+\usepackage{subfigure}
+\usepackage{rotating}
+\usepackage{wrapfig}
+\usepackage{lscape}
+\usepackage{booktabs,tabularx}
+\usepackage{lscape}
+\usepackage{cite}
+\usepackage{mathptmx}
+\usepackage{amsmath,amssymb,amsfonts}
+\usepackage{algorithm, algorithmic}
+\usepackage{wasysym}
+\usepackage{bm}
+\usepackage{cleveref}
+\usepackage{xfrac}
+\usepackage{palatino, url}
+
+\usepackage[top=4.572cm, bottom=3.175cm, left=3.81cm, right=3.175cm]{geometry}
+\usepackage{sectsty}  % section font size
+
+\sectionfont{\normalsize}
+\subsectionfont{\normalsize}
+\subsubsectionfont{\normalsize}
+\paragraphfont{\normalsize}
+\subparagraphfont{\normalsize}
+\usepackage{etoolbox} % remove spaces before and after paragraph
+\usepackage{setspace} % control linespacing
+\setstretch{1.5}
+%\usepackage{apacite}
+\usepackage {IEEEtrantools}
+\usepackage{graphicx}
+\usepackage{setspace}
+\graphicspath{{./Figure/}}
+\DeclareGraphicsExtensions{.pdf,.jpeg,.jpg,.png}
+\usepackage{verbatim}
+\usepackage{textcomp}
+\usepackage[dvipsnames]{xcolor}
+
+\usepackage{caption}
+\captionsetup{format=hang, font=normalsize, labelfont=bf, justification=justified, labelsep=period}
+
+%Pagination
+\usepackage{fancyhdr}
+\pagestyle{fancyplain}% <- use fancyplain instead fancy
+\fancyhf{}
+\fancyhead[R]{\thepage}
+\renewcommand{\headrulewidth}{0pt}
+
+
+\makeatletter
+\patchcmd{\@makechapterhead}{\vspace*{60\p@}}{}{}{}% Removes space above \chapter head
+\patchcmd{\@makeschapterhead}{\vspace*{50\p@}}{}{}{}% Removes space above \chapter* head
+\chapterfont{\normalsize \centering \MakeUppercase}
+\let\mtcontentsname\contentsname
+\renewcommand\contentsname{\MakeUppercase\mtcontentsname}
+
+\begin{center}
+
+	\textbf{CHAPTER I}
+	
+	\vspace*{1 cm}
+	
+	\textbf{INTRODUCTION}
+\end{center}
+
+	\section*{} 
+	\addcontentsline{toc}{section}{\protect\numberline{1}Introduction}%
+	\addtocounter{section}{1}
+		\subsection{Background of the Study}
