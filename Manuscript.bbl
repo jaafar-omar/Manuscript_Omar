@@ -24,6 +24,20 @@ Bi, S., Yuan, C., Liu, C., Cheng, J., Wang, W., and Cai, Y. (2021).
 \newblock A survey of low-cost 3d laser scanning technology.
 \newblock {\em Applied Sciences}, 11(9).
 
+\bibitem[Bucklin et~al., 2019]{Bucklin2019175}
+Bucklin, R., Thompson, S., Montross, M., and Abdel-Hadi, A. (2019).
+\newblock Chapter 9 - grain storage systems design.
+\newblock In Kutz, M., editor, {\em Handbook of Farm, Dairy and Food Machinery
+  Engineering (Third Edition)}, pages 175--223. Academic Press, third edition
+  edition.
+
+\bibitem[Bulut et~al., 2020]{bulut2020}
+Bulut, S., Giese, T.~G., Wende, M., and Anderl, R. (2020).
+\newblock The paperless factory: From document driven factories to model driven
+  factories.
+\newblock In {\em 2020 IEEE International Conference on Teaching, Assessment,
+  and Learning for Engineering (TALE)}, pages 725--730.
+
 \bibitem[Chang et~al., 2017]{chang2017}
 Chang, W.-C., Wu, C.-H., Tsai, Y.-H., and Chiu, W.-Y. (2017).
 \newblock Object volume estimation based on 3d point cloud.
@@ -193,6 +207,12 @@ Stanislas, L., Suenderhauf, N., and Peynot, T. (2018).
   on Robotics and Automation, ACRA, pages 1--8. Australian Robotics and
   Automation Association (ARAA), Australia.
 
+\bibitem[Stojanovic, 2023]{stojanovic2023point}
+Stojanovic, V. (2023).
+\newblock Point cloud analytics: Proposed future work.
+\newblock {\em Proceedings of the HPI Research School on Service-oriented
+  Systems Engineering 2020 Fall Retreat}, page 137.
+
 \bibitem[Turner et~al., 2017]{turner2017}
 Turner, A., Jackson, J., Koeninger, N., Mcneill, S., Montross, M., Casada, J.,
   Boac, R., Bhadra, R., Maghirang, S., and Thompson (2017).
@@ -208,10 +228,16 @@ Turner, A., Jackson, J., Koeninger, N., Mcneill, S., Montross, M., Casada, M.,
 
 \bibitem[Vogt and Gerding, 2017]{vogt2017}
 Vogt, M. and Gerding, M. (2017).
-\newblock Silo and tank vision: Applica?tions, challenges, and technical
+\newblock Silo and tank vision: Applicaltions, challenges, and technical
   solutions for radar measurement of liquids and bulk solids in tanks and
   silos.
 \newblock {\em IEEE Microwave Magazine}, 18(6):38--51.
+
+\bibitem[Wang and Kim, 2019]{wang2019306}
+Wang, Q. and Kim, M.-K. (2019).
+\newblock Applications of 3d point cloud data in the construction industry: A
+  fifteen-year review from 2004 to 2018.
+\newblock {\em Advanced Engineering Informatics}, 39:306--319.
 
 \bibitem[Wang et~al., 2020]{wang2020}
 Wang, Q., Tan, Y., and Mei, Z. (2020).
@@ -225,6 +251,14 @@ Williams, G. and Rosentrater, K. (2007).
 \newblock Design considerations for the construction and operation of flour
   milling facilities. part i: Planning, structural, and life safety
   considerations.
+
+\bibitem[Yegorova et~al., 2021]{yegorova_2021}
+Yegorova, S.~V., Slavyanskiy, A.~A., Postnikova, T.~A., Pereboev, A.~V.,
+  Mazanova, G.~V., and Murzakov, M.~G. (2021).
+\newblock Improving the technology of post-harvest processing and storage of
+  grain raw materials at the enterprises of the grain processing industry.
+\newblock {\em IOP Conference Series: Earth and Environmental Science},
+  640(2):022040.
 
 \bibitem[Yigit et~al., 2015]{yigit2015}
 Yigit, E., İsiker, H., Toktas, A., and Tjuatja, S. (2015).

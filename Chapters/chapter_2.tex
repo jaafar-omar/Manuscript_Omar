@@ -4,13 +4,13 @@
 \label{ch:rrl}
 \thispagestyle{empty}
 
-In this chapter, the researcher discussed the general idea of the volume estimation and filtering method and its several related studies. The chapter also presented some published and unpublished methods and technologies used for measuring the level and volume of the materials inside the silo (or sometimes called bin). 
+In this chapter, the researcher discussed the general idea of the volume estimation and filtering method and its several related studies. The chapter also presented some published and unpublished methods and technologies used for measuring the level and volume of the materials inside the silo (or sometimes called bin).
 
 Several traditional level measurements are already used and studied in different industries such as weight and cable methods, ultrasonic, Guided Ware Radar (GWR), and Thru-air Radar (TAR) which has their own advantage and disadvantages. Ultrasonic and laser technologies are excellent in providing accurate and detailed measurement of level. However, these technologies are problematic when in terms of dusty environment \citep{duysak2020}.
 
 \section{3D Point Cloud Acquisition}
 \label{rrl:sec:3D Point Cloud acquisition}
-The recent advancements in spatial acquisition technologies such as aerial or terrestrial laser scanning have resulted in the formation of point clouds that may contain millions, billions, or trillions of points \citep{jaboyedoff2012}. Various 3D scanning technology produces data that are formatted as point cloud, typically these point cloud data acquired using laser or image scanner. These gathered data can be managed to ease the measurement and visualization of an object or environment \citep{chua2017}. Point cloud data are processed to generate desired output on the specific application. Over the past 20 years, the advent of high-quality 3D point cloud acquisition changes the perspective of robotics. Moreover, 3D scanning through various technologies enable the possibility of less contact for physical measurement that eliminate the traditional approach that involves time and effort. Unfortunately, most of these 3D sensors are expensive and therefore various relevant projects are considering not to use these sensors and opt to utilize alternative technology \citep{rusu2011}. 
+The recent advancements in spatial acquisition technologies such as aerial or terrestrial laser scanning have resulted in the formation of point clouds that may contain millions, billions, or trillions of points \citep{jaboyedoff2012}. Various 3D scanning technology produces data that are formatted as point cloud, typically these point cloud data acquired using laser or image scanner. These gathered data can be managed to ease the measurement and visualization of an object or environment \citep{chua2017}. Point cloud data are processed to generate desired output on the specific application. Over the past 20 years, the advent of high-quality 3D point cloud acquisition changes the perspective of robotics. Moreover, 3D scanning through various technologies enable the possibility of less contact for physical measurement that eliminate the traditional approach that involves time and effort. Unfortunately, most of these 3D sensors are expensive and therefore various relevant projects are considering not to use these sensors and opt to utilize alternative technology \citep{rusu2011}.
 
 \subsection{Light Detection and Ranging (LiDAR)}
 \label{rrl:subsec:Light Detection and Ranging}
@@ -19,32 +19,32 @@ LiDAR is a remote sensing technology that uses laser light to create precise 2D 
 A 360-degree scan of a LiDAR is generally obtained in figure \ref{fig:360-dgree-lidar-scan} to produce a 2D map, a typical scan using the robot's top-mounted 2D LIDAR. The axis of the rotating LIDAR sensor is shown as a red line. The border of the surrounding obstacles is indicated in blue \citep{sarker2020}.
 
 \begin{figure}[H]
-    \centering
-    \begin{minipage}{0.5\textwidth}
-        \centering
-        \includegraphics[width=0.9\textwidth]{Figures/360-degree-lidar-scan.png} % first figure itself
-        \caption{360-degree scan of 2D LiDAR}
-        \label{fig:360-dgree-lidar-scan}
-    \end{minipage}\hfill
-    \begin{minipage}{0.5\textwidth}
-        \centering
-        \includegraphics[width=0.9\textwidth]{Figures/Block-diagram-of-light-detection-and-ranging-LiDAR-system} % second figure itself
-        \caption{Typical LiDAR System}
-        \label{fig:Typical LiDAR System}
-    \end{minipage}
+	\centering
+	\begin{minipage}{0.5\textwidth}
+		\centering
+		\includegraphics[width=0.9\textwidth]{Figures/360-degree-lidar-scan.png} % first figure itself
+		\caption{360-degree scan of 2D LiDAR}
+		\label{fig:360-dgree-lidar-scan}
+	\end{minipage}\hfill
+	\begin{minipage}{0.5\textwidth}
+		\centering
+		\includegraphics[width=0.9\textwidth]{Figures/Block-diagram-of-light-detection-and-ranging-LiDAR-system} % second figure itself
+		\caption{Typical LiDAR System}
+		\label{fig:Typical LiDAR System}
+	\end{minipage}
 \end{figure}
 
-\citet{kang2018} utilized a 2D low-cost off-the-shelf LiDAR to reconstruct complex 3D model by integrating an external rotary for additional dimension. The experimental test achieved to evaluate 3D reconstruction by concluding that using a low-cost 2D LiDAR sensors can  perform 3D point cloud acquisition but increase either the complexity of its hardware or software. Figure \ref{fig:The principle of moving 2D LiDAR} illustrate the principle of 3D concept based on moving 2D LiDAR with 2 fixed different position in a room, the world coordinate frame is denote as 
+\citet{kang2018} utilized a 2D low-cost off-the-shelf LiDAR to reconstruct complex 3D model by integrating an external rotary for additional dimension. The experimental test achieved to evaluate 3D reconstruction by concluding that using a low-cost 2D LiDAR sensors can  perform 3D point cloud acquisition but increase either the complexity of its hardware or software. Figure \ref{fig:The principle of moving 2D LiDAR} illustrate the principle of 3D concept based on moving 2D LiDAR with 2 fixed different position in a room, the world coordinate frame is denote as
 \begin{math}
-    W-X_{W}Y_{W}Z_{W}.
+	W-X_{W}Y_{W}Z_{W}.
 \end{math}
 Although moving 2D LiDAR can never replace commercial 3D LiDAR with several reasons especially with applications involving real-time performance, however, moving 2D LiDAR can be partially used and installed with in terms of static and nonmoving environment \citep{bi2021}.
 
 \begin{figure}[H]
-    \centering
-    \includegraphics[width=0.7\textwidth]{Figures/moving-2D-LiDAR-principle.jpg}
-    \caption{The principle of moving 2D LiDAR}
-    \label{fig:The principle of moving 2D LiDAR}
+	\centering
+	\includegraphics[width=0.7\textwidth]{Figures/moving-2D-LiDAR-principle.jpg}
+	\caption{The principle of moving 2D LiDAR}
+	\label{fig:The principle of moving 2D LiDAR}
 \end{figure}
 
 \section{Point Cloud Processing}
@@ -54,19 +54,19 @@ Recent advancements in 3D reconstruction and visualization based on point cloud 
 In the study conducted by \citet{wang2020}, when point cloud data are involved in construction applications, different point cloud data processing procedures are crucial to achieving desired outputs. Figure \ref{fig:data-processing} shows the common procedures for the raw point cloud data in a construction setting \citep{wang2020}.
 
 \begin{figure}[H]
-    \centering
-    \includegraphics[width=0.9\textwidth]{data-processing}
-    \caption{Typical processing procedures of point cloud data}
-    \label{fig:data-processing}
+	\centering
+	\includegraphics[width=0.9\textwidth]{data-processing}
+	\caption{Typical processing procedures of point cloud data}
+	\label{fig:data-processing}
 \end{figure}
 
 \citet{stanislas2021} divided the point cloud processing into four-step processes, figure \ref{fig:The-four-stages-of-the-point-cloud-classification-process} illustrates the structure of the authors, the point cloud output of the method is the same point cloud that was inputted before the classification took place. The method involves feature computing, data formatting, network prediction, and post-processing.
 
 \begin{figure}[H]
-    \centering
-    \includegraphics[width=\textwidth]{Figures/four-stage-of-pc-classification-process.png}
-    \caption{The four stages of the point cloud classification process}
-    \label{fig:The-four-stages-of-the-point-cloud-classification-process}
+	\centering
+	\includegraphics[width=\textwidth]{Figures/four-stage-of-pc-classification-process.png}
+	\caption{The four stages of the point cloud classification process}
+	\label{fig:The-four-stages-of-the-point-cloud-classification-process}
 \end{figure}
 
 \subsection{Outlier Point Cloud Processing}
@@ -76,10 +76,10 @@ Processing of point cloud data by filtering is intensively exposed in research w
 For instance, \citet{stanislas2018} detected dusty regions in point cloud data by using machine learning techniques as well as specialized neural networks. The 3D map was transformed into 3D occupancy grids in this investigation, and the occupied voxels were utilized to train classifiers based on machine learning to extract significant information, figure \ref{fig:pcl seg} shows the result of the study.
 
 \begin{figure}[H]
-    \centering
-    \includegraphics[width=0.7\textwidth]{pcl_seg}
-    \caption{Top: Detection of airborne dust particle in a LiDAR point cloud, purple is Particle and red is Non-particle. Middle: Removal of detected dust particles from point cloud for robust perception, the color is mapped to the vertical axis (red is low, green is high). Bottom: Image depicting the scene.}
-    \label{fig:pcl seg}
+	\centering
+	\includegraphics[width=0.7\textwidth]{pcl_seg}
+	\caption{Top: Detection of airborne dust particle in a LiDAR point cloud, purple is Particle and red is Non-particle. Middle: Removal of detected dust particles from point cloud for robust perception, the color is mapped to the vertical axis (red is low, green is high). Bottom: Image depicting the scene.}
+	\label{fig:pcl seg}
 \end{figure}
 
 The same voxel-based approach was also used in the study of \citet{shamsudin2016} for the classification of fog. The method involved using geometrical features and intensity as inputs for the support vector machine (SVM) and k-nearest neighbors (KNN) algorithms to classify fog.
@@ -92,7 +92,7 @@ To simplify the point cloud models and reduce the noise in point cloud data, \ci
 
 \citet{heinzler2020} used a large point cloud data set for CNN-based approach segmentation in controlled adverse weather effects. The approach takes a global understanding of the scene to estimate the validity of individual point measurements, rather than analyzing local spatial statistics as in previous approaches, it also proposes data augmentation technique that reduces the necessity for annotated ground truth data.
 
-The multi-echos and intensity data features of LiDAR point cloud are utilized in various studies. \citet{afzalaghaeinaeini2021} used low-intensity outlier removal (LIOR) filtering for de-dusting method. The method is composed of two procedures: First, dust particles based on point cloud usually have a lower intensity compared to non-dust point cloud, point cloud with an intensity lower than the set threshold are removed. Second,  the study successfully filtered the point cloud data and removed the dust from the original point cloud data. 
+The multi-echos and intensity data features of LiDAR point cloud are utilized in various studies. \citet{afzalaghaeinaeini2021} used low-intensity outlier removal (LIOR) filtering for de-dusting method. The method is composed of two procedures: First, dust particles based on point cloud usually have a lower intensity compared to non-dust point cloud, point cloud with an intensity lower than the set threshold are removed. Second,  the study successfully filtered the point cloud data and removed the dust from the original point cloud data.
 
 Intensity-based filter was also utilized by \citet{park2020} for removal of snow in point cloud data. The study concluded that this method overcomes the disadvantages of LiDAR sensor compared to other conventional filtering methods.
 
@@ -116,30 +116,30 @@ Due to a better portrayal of the region encompassed in the group of points, the 
 
 The Delaunay triangulation-based technique for volume computation, known as Delaunay triangulation-driven volume calculation (DTVC), differs from traditional approaches which computes the volume during the triangulation process rather than preserving Delaunay triangles. This method reduces both memory usage and processing time. Experimental findings demonstrate that DTVC achieves a satisfactory trade-off between precision and efficiency \citep{liuY2021}.
 
-Table \ref{tab:Point Cloud Volume of Different Objects} shows the percentage error analysis from the computed volume of different model point cloud objects in the study of \citet{chang2017}, which shows that in order to estimate the volume of a shape represented by a point cloud, the area of each slice of the shape is calculated by finding the difference between the top and bottom curves of the slice. The total volume of the shape is then calculated by integrating the areas of all the slices using an integration interval equal to the length of the point cloud. 
+Table \ref{tab:Point Cloud Volume of Different Objects} shows the percentage error analysis from the computed volume of different model point cloud objects in the study of \citet{chang2017}, which shows that in order to estimate the volume of a shape represented by a point cloud, the area of each slice of the shape is calculated by finding the difference between the top and bottom curves of the slice. The total volume of the shape is then calculated by integrating the areas of all the slices using an integration interval equal to the length of the point cloud.
 
 \begin{table}[H]
-\caption{Point Cloud Volume of Different Model}
-\label{tab:Point Cloud Volume of Different Objects}
-\centering
-\begin{tabular}{|c|c|c|c|}
-    \hline
-    % First row
-    Objects & True Value (\si{mm^3}) & Estimated Value (\si{mm^3}) & Error (\%) \\
-    \hline
-    % Second row
-    Cube &  1 000 000 & 1 000 000 & 0 \\
-    \hline
-    % Third row
-    Cylinder & 125.664 & 125.061 & 0.479 \\
-    \hline
-    % Fourth row
-    Sphere & 4 188 90.2 & 4 178 966.87 & 0.234 \\
-    \hline
-    % Fifth row
-    Triangle Prism & 17.321 & 17.399 & 0.45 \\
-    \hline
-\end{tabular}
+	\caption{Point Cloud Volume of Different Model}
+	\label{tab:Point Cloud Volume of Different Objects}
+	\centering
+	\begin{tabular}{|c|c|c|c|}
+		\hline
+		% First row
+		Objects        & True Value (\si{mm^3}) & Estimated Value (\si{mm^3}) & Error (\%) \\
+		\hline
+		% Second row
+		Cube           & 1 000 000              & 1 000 000                   & 0          \\
+		\hline
+		% Third row
+		Cylinder       & 125.664                & 125.061                     & 0.479      \\
+		\hline
+		% Fourth row
+		Sphere         & 4 188 90.2             & 4 178 966.87                & 0.234      \\
+		\hline
+		% Fifth row
+		Triangle Prism & 17.321                 & 17.399                      & 0.45       \\
+		\hline
+	\end{tabular}
 \end{table}
 
 The study conducted by \citet{jeong2018} introduces a newly developed explicit hybrid numerical methodology for 3D volume reconstruction from unorganized point clouds, which is based on a modified Allen-Cahn equation and a 3D binary picture segmentation method. The technique has demonstrated potential in a variety of practical applications, including 3D model printing from dispersed scanned data. The computational findings show that the suggested approach for reconstructing 3D volume from point clouds is very efficient and resilient.
@@ -147,14 +147,14 @@ The study conducted by \citet{jeong2018} introduces a newly developed explicit h
 The Convex Hull is another method that is popular technique for measuring volume from 3D point cloud points (see figure \ref{fig:convex hull}). The computational geometry community has extensively studied the convex hull problem, as evidenced by the works of \citet{kim2002}, \citet{graham1983}, and \citet{maus1984}. Qhull is a commonly used algorithm to compute the convex hull, employing the Voronoi diagram, the Delaunay triangulation, furthest-site Voronoi diagram, the furthest-site Delauney triangulation, and the half-space intersection around a point. The software program allows the creation of high-dimensional objects, and the Quickhull algorithm, written in C, is used to compute the convex hull, which solves round-off errors in floating-point arithmetic. The program is capable of calculating volumes, surface areas, and convex hull approximations.
 
 \begin{figure}[H]
-    \centering
-    \includegraphics[width=0.8\textwidth]{Figures/convex hull.jpg}
-    \caption{Convex Hull}
-    \label{fig:convex hull}
+	\centering
+	\includegraphics[width=0.8\textwidth]{Figures/convex hull.jpg}
+	\caption{Convex Hull}
+	\label{fig:convex hull}
 \end{figure}
 
 \section{Synthesis of the Study}
 
-The review of related literature conducted and summarized by the researcher are pertinent to guide the researcher in order to achieve the objectives of the study. The review identifies the need for different point cloud data processing procedures to achieve desired outputs. The review also highlights various point cloud processing techniques such as, machine learning (ML), and deep learning (DL) techniques for removing noise and classifying point cloud dust and non-dust data, however, the challenges of these AI approaches with point cloud data for filtering is the amount of data that will be stored for the training method which necessitate millions of point clouds. Another is the high computational cost of these training methods. Lastly, the performance of the method is significantly dependent on its datasets. 
+The review of related literature conducted and summarized by the researcher are pertinent to guide the researcher in order to achieve the objectives of the study. The review identifies the need for different point cloud data processing procedures to achieve desired outputs. The review also highlights various point cloud processing techniques such as, machine learning (ML), and deep learning (DL) techniques for removing noise and classifying point cloud dust and non-dust data, however, the challenges of these AI approaches with point cloud data for filtering is the amount of data that will be stored for the training method which necessitate millions of point clouds. Another is the high computational cost of these training methods. Lastly, the performance of the method is significantly dependent on its datasets.
 
 While several studies have explored the use of various classifier input features to remove noise, the most effective features have been found to be geometry, intensity, and multi-echo data from the LiDAR sensor. However, there is a gap in the study regarding the evaluation of the performance of these techniques in real-world applications. The need for further research with regard to these methods in a real-world scenarios is highly significant. Thus, this study will address the gap mentioned by integrating these techniques into a real-world applications and identify their practical implications.

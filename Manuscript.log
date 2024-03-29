@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.141592653-2.6-1.40.25 (MiKTeX 23.12) (preloaded format=pdflatex 2024.2.10)  14 MAR 2024 09:18
+This is pdfTeX, Version 3.141592653-2.6-1.40.25 (MiKTeX 23.12) (preloaded format=pdflatex 2024.2.10)  29 MAR 2024 11:13
 entering extended mode
  \write18 enabled.
  file:line:error style messages enabled.
@@ -720,7 +720,15 @@ Chapter I.
 [2
 
 ]
-Overfull \hbox (3.03862pt too wide) in paragraph at lines 23--24
+
+Package fancyhdr Warning: \headheight is too small (12.0pt): 
+(fancyhdr)                Make it at least 14.49998pt, for example:
+(fancyhdr)                \setlength{\headheight}{14.49998pt}.
+(fancyhdr)                You might also make \topmargin smaller to compensate:
+(fancyhdr)                \addtolength{\topmargin}{-2.49998pt}.
+
+[3]
+Overfull \hbox (3.03862pt too wide) in paragraph at lines 29--30
 []\OT1/ppl/m/n/12 When im-ple-ment-ing Li-DAR for stor-age vol-ume mea-sure-ment, the ideal
  []
 
@@ -731,22 +739,9 @@ Package fancyhdr Warning: \headheight is too small (12.0pt):
 (fancyhdr)                You might also make \topmargin smaller to compensate:
 (fancyhdr)                \addtolength{\topmargin}{-2.49998pt}.
 
-[3]
-
-Package fancyhdr Warning: \headheight is too small (12.0pt): 
-(fancyhdr)                Make it at least 14.49998pt, for example:
-(fancyhdr)                \setlength{\headheight}{14.49998pt}.
-(fancyhdr)                You might also make \topmargin smaller to compensate:
-(fancyhdr)                \addtolength{\topmargin}{-2.49998pt}.
-
 [4]
-Overfull \hbox (9.95099pt too wide) in paragraph at lines 47--48
+Overfull \hbox (9.95099pt too wide) in paragraph at lines 51--52
 []\OT1/ppl/m/n/12 The scope of this study is to de-velop a vol-ume es-ti-ma-tion sys-tem through
- []
-
-
-Overfull \hbox (22.5011pt too wide) in paragraph at lines 53--54
-\OT1/ppl/m/n/12 quate sup-ply of ma-te-ri-als. Li-DAR tech-nol-ogy, which cap-tures three-dimensional
  []
 
 
@@ -757,15 +752,12 @@ Package fancyhdr Warning: \headheight is too small (12.0pt):
 (fancyhdr)                \addtolength{\topmargin}{-2.49998pt}.
 
 [5]
-Overfull \hbox (11.757pt too wide) in paragraph at lines 56--57
-[]\OT1/ppl/m/n/12 This study uti-lizes re-mote sens-ing tech-nol-ogy, specif-
- []
-
 <./Figures/conceptual-framework-2.jpg, id=32, 2870.725pt x 4075.225pt>
 File: ./Figures/conceptual-framework-2.jpg Graphic file (type jpg)
 <use ./Figures/conceptual-framework-2.jpg>
-Package pdftex.def Info: ./Figures/conceptual-framework-2.jpg  used on input line 66.
+Package pdftex.def Info: ./Figures/conceptual-framework-2.jpg  used on input line 64.
 (pdftex.def)             Requested size: 358.88354pt x 437.2076pt.
+
 
 Package fancyhdr Warning: \headheight is too small (12.0pt): 
 (fancyhdr)                Make it at least 14.49998pt, for example:
@@ -1076,7 +1068,7 @@ Package fancyhdr Warning: \headheight is too small (12.0pt):
 (fancyhdr)                You might also make \topmargin smaller to compensate:
 (fancyhdr)                \addtolength{\topmargin}{-2.49998pt}.
 
-[34])
+[34]
 
 Package fancyhdr Warning: \headheight is too small (12.0pt): 
 (fancyhdr)                Make it at least 14.49998pt, for example:
@@ -1084,24 +1076,32 @@ Package fancyhdr Warning: \headheight is too small (12.0pt):
 (fancyhdr)                You might also make \topmargin smaller to compensate:
 (fancyhdr)                \addtolength{\topmargin}{-2.49998pt}.
 
-[35] (Manuscript.aux)
+[35])
+
+Package fancyhdr Warning: \headheight is too small (12.0pt): 
+(fancyhdr)                Make it at least 14.49998pt, for example:
+(fancyhdr)                \setlength{\headheight}{14.49998pt}.
+(fancyhdr)                You might also make \topmargin smaller to compensate:
+(fancyhdr)                \addtolength{\topmargin}{-2.49998pt}.
+
+[36] (Manuscript.aux)
  ***********
 LaTeX2e <2023-11-01>
 L3 programming layer <2023-12-11>
  ***********
  ) 
 Here is how much of TeX's memory you used:
- 17118 strings out of 474495
- 376400 string characters out of 5744407
+ 17131 strings out of 474495
+ 376652 string characters out of 5744407
  1936460 words of memory out of 5000000
- 39109 multiletter control sequences out of 15000+600000
+ 39122 multiletter control sequences out of 15000+600000
  584460 words of font info for 96 fonts, out of 8000000 for 9000
  1141 hyphenation exceptions out of 8191
  89i,12n,95p,1589b,726s stack positions out of 10000i,1000n,20000p,200000b,200000s
 <C:/Users/Asus/AppData/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/cm/cmmi10.pfb><C:/Users/Asus/AppData/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/cm/cmr10.pfb><C:/Users/Asus/AppData/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/cm/cmsy10.pfb><C:/Users/Asus/AppData/Local/Programs/MiKTeX/fonts/type1/urw/palatino/uplb8a.pfb><C:/Users/Asus/AppData/Local/Programs/MiKTeX/fonts/type1/urw/palatino/uplr8a.pfb><C:/Users/Asus/AppData/Local/Programs/MiKTeX/fonts/type1/urw/palatino/uplri8a.pfb><C:/Users/Asus/AppData/Local/Programs/MiKTeX/fonts/type1/urw/symbol/usyr.pfb><C:/Users/Asus/AppData/Local/Programs/MiKTeX/fonts/type1/urw/times/utmr8a.pfb><C:/Users/Asus/AppData/Local/Programs/MiKTeX/fonts/type1/urw/times/utmri8a.pfb>
-Output written on Manuscript.pdf (39 pages, 2626208 bytes).
+Output written on Manuscript.pdf (40 pages, 2628229 bytes).
 PDF statistics:
- 188 PDF objects out of 1000 (max. 8388607)
+ 191 PDF objects out of 1000 (max. 8388607)
  0 named destinations out of 1000 (max. 500000)
  56 words of extra memory for PDF output out of 10000 (max. 10000000)
 
