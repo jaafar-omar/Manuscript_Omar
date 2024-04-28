@@ -1,15 +1,17 @@
 \addvspace {10\p@ }
-\contentsline {figure}{\numberline {1.1}{\ignorespaces General Conceptual Flow}}{7}{}%
+\contentsline {figure}{\numberline {1.1}{\ignorespaces General Conceptual Flow}}{9}{}%
+\contentsline {figure}{\numberline {1.2}{\ignorespaces Convex Hull of Set of Points}}{13}{}%
 \addvspace {10\p@ }
-\contentsline {figure}{\numberline {2.1}{\ignorespaces 360-degree scan of 2D LiDAR}}{12}{}%
-\contentsline {figure}{\numberline {2.2}{\ignorespaces Typical LiDAR System}}{12}{}%
-\contentsline {figure}{\numberline {2.3}{\ignorespaces The principle of moving 2D LiDAR}}{13}{}%
-\contentsline {figure}{\numberline {2.4}{\ignorespaces Typical processing procedures of point cloud data}}{14}{}%
-\contentsline {figure}{\numberline {2.5}{\ignorespaces The four stages of the point cloud classification process}}{14}{}%
-\contentsline {figure}{\numberline {2.6}{\ignorespaces Top: Detection of airborne dust particle in a LiDAR point cloud, purple is Particle and red is Non-particle. Middle: Removal of detected dust particles from point cloud for robust perception, the color is mapped to the vertical axis (red is low, green is high). Bottom: Image depicting the scene.}}{15}{}%
-\contentsline {figure}{\numberline {2.7}{\ignorespaces Convex Hull}}{20}{}%
+\contentsline {figure}{\numberline {2.1}{\ignorespaces Typical LiDAR System}}{20}{}%
+\contentsline {figure}{\numberline {2.2}{\ignorespaces 360-degree scan of 2D LiDAR}}{21}{}%
+\contentsline {figure}{\numberline {2.3}{\ignorespaces Four different configurations for rotating: (a) pitching scan, (b) rolling scan, (c) yawing scan, (d) top yawing scan}}{22}{}%
+\contentsline {figure}{\numberline {2.4}{\ignorespaces Convex Hull}}{27}{}%
 \addvspace {10\p@ }
-\contentsline {figure}{\numberline {3.1}{\ignorespaces General Flowchart of the System}}{23}{}%
-\contentsline {figure}{\numberline {3.2}{\ignorespaces System Hardware Block Diagram}}{24}{}%
-\contentsline {figure}{\numberline {3.3}{\ignorespaces Volume of the flour is the difference between the volume of the bin and volume of the point cloud}}{27}{}%
+\contentsline {figure}{\numberline {3.1}{\ignorespaces System Development Process}}{32}{}%
+\contentsline {figure}{\numberline {3.2}{\ignorespaces Overall System Setup: (A) 3D-PCSS, (B) User Interface}}{34}{}%
+\contentsline {figure}{\numberline {3.3}{\ignorespaces Synchronization Process of LiDAR and Servo}}{37}{}%
+\contentsline {figure}{\numberline {3.4}{\ignorespaces Major Components of 3D-PCSS}}{38}{}%
+\contentsline {figure}{\numberline {3.5}{\ignorespaces Hardware Design Flow Chart}}{39}{}%
+\contentsline {figure}{\numberline {3.6}{\ignorespaces System Process Flow Chart}}{41}{}%
+\contentsline {figure}{\numberline {3.7}{\ignorespaces Volume of the flour is the difference between the volume of the bin and volume of the point cloud}}{44}{}%
 \addvspace {10\p@ }

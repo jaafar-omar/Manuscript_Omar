@@ -8,9 +8,9 @@
 \label{intro:sec:Background of the Study}
 
 Agricultural raw materials, such as rice, wheat, and corn, which mostly include solid, liquid or powered, provide significant amounts of carbohydrates for use in industry and human nutrition . Certain grains require little processing and can be eaten right away after harvest, while others must be prepared through a number of primary and secondary milling steps. As farmers learned to produced more resulting of various agricultural innovation, this raw materials must preserve the quality for future consumption \citep{Bucklin2019175}.
-It is expected an increase in raw materials annually does necessitate an efficient post-harvest processes such as raw product storing method incorporating modern technologies \citep{yegorova_2021}.
+It is expected an increase in raw materials annually does necessitate an efficient post-harvest processes such as raw product storing method incorporating modern technologies \citep{Kumar2017-jl,yegorova_2021,Joni2022}.
 
-Various tools and methods have been developed to measure stored raw materials volume inside an industrial storage silos or bins, employing sensors like contact level indicators (e.g., tilt switches, pressure diaphragms, rotary paddles) and non-contact indicators (e.g., stereovision, radar, ultrasound, lasers). Contact sensors offer cost-effective, dust-resistant point measurements but lack surface detail. Non-contact sensors can map grain surfaces accurately but require permanent mounting, are relatively expensive, and are susceptible to dust interference. However, conventional volumetric measurement method using weighted fiberglass tape is still being used providing only a single data point which leads to inaccuracy and error-prone volume measurement \citep{turner2017}.
+Various tools and methods have been developed to measure stored raw materials volume inside an industrial storage silos or bins, employing sensors like contact level indicators (e.g., tilt switches, pressure diaphragms, rotary paddles) and non-contact indicators (e.g., stereovision, radar, ultrasound, lasers). Contact sensors offer cost-effective, dust-resistant point measurements but lack surface detail. Non-contact sensors can map grain surfaces accurately but require permanent mounting, are relatively expensive, and are susceptible to dust interference. However, conventional volumetric measurement method using weighted fiberglass tape is still being used providing only a single data point which leads to inaccuracy and error-prone volume measurement \citep{turner2016,turner2017}.
 
 Point cloud data consists of a set of points representing an object in either a two or three-dimensional structure. This data typically comprises X, Y, and Z coordinates, but modern point clouds may also include additional information such as intensity, RGB values, and more \citep{wang2019306, stojanovic2023point}.
 
@@ -24,21 +24,23 @@ Recent innovations in various industries have made the production less manual bu
 \label{intro:sec:Statement of the Problem}
 %A variety of product that stored in a silo can be solid, powdered and liquid. When the product such as solid grains, corn are being stored, minimal dust cloud are generated during filling process. However, when powdered products such as cement or flour are being filled, a dense dust cloud are created. Ideally, when LiDAR is used for measuring the distance between the product and the door, it is installed at the top. Due to the fine-texture of solid materials such as flour product, a dispersed dust cloud may form during the pneumatic conveying process of loading flour into the bin \citep{williams2007}. Although LiDAR sensor have the ability to provide faster data collection and detailed spatial illustration compared to other sensing technologies, and the precision of distance measurement is undeniable, the wavelengths that LiDAR operates, typically, 700 to 900 nm can be problematic when deposit layers of dust formed caused by stored product as it may caused a problem when scanning the spatial structure of the product.
 
-While some food manufacturing industries still rely on manual and labor-intensive storage measurement procedures, there is a growing need to adopt advanced technologies with remote capabilities. This shift aims to eliminate the need for frequent physical processes that may endanger employees. Silo storage systems are versatile, accommodating a wide range of products, including solids, powders, and liquids. One characteristic of product storages is that when they are filled with raw materials, except for liquids, they create a dust cloud in the empty space. Solid grains like corn typically produce minimal dust clouds during filling, whereas powdered substances like cement or flour often generate dense dust clouds.
+While some food manufacturing industries still rely on manual and labor-intensive storage measurement procedures, there is a growing need to adopt advanced technologies with remote capabilities. This shift aims to eliminate the need for frequent physical processes that may endanger employees. Additionally, monitoring the volume of raw product storage, particularly in industries dealing with essential commodities like flour, holds paramount importance for various reasons. Ensuring accurate and timely monitoring of storage bins prevents detrimental scenarios such as underproduction or overstocking. In the case of underproduction, inadequate monitoring leading to stockouts can disrupt the production process, resulting in delayed deliveries and potential loss of sales. Conversely, overstocking can lead to unnecessary inventory costs, space constraints, and increased risk of product spoilage or infestation. Specifically, in the context of flour storage, overstocking can attract flour beetles, leading to infestation and contamination of the stored flour when left unsold. Thus, precise volume monitoring is crucial to maintaining optimal inventory levels, facilitating efficient production planning, and mitigating the risk of financial losses and product quality issues for food manufacturing industries.
 
-When implementing LiDAR for storage volume measurement, the ideal placement is at the top of the silo. However, in the case of fine-textured solid materials such as flour, dispersed dust clouds may arise during the pneumatic conveying process of loading flour into the bin \citep{williams2007}. Although LiDAR sensors offer advantages such as rapid data collection and precise spatial representation compared to alternative sensing technologies, their operational wavelengths—usually between 700 to 900 nm—can pose challenges when scanning through layers of dust deposited by stored products. This challenge may potentially impact the accuracy of spatial structure scans.
+%Silo storage systems are versatile, accommodating a wide range of products, including solids, powders, and liquids. One characteristic of product storages is that when they are filled with raw materials, except for liquids, they create a dust cloud in the empty space. Solid grains like corn typically produce minimal dust clouds during filling, whereas powdered substances like cement or flour often generate dense dust clouds.
 
-This study presents the development of a 3D point cloud scanner system for volume measurement of flour storage. The system is designed to be controlled and scanned remotely, alleviating the manual process of volume measurement. Additionally, this study investigates the behavior of the system when dust clouds are present during filling.
+%When implementing LiDAR for storage volume measurement, the ideal placement is at the top of the silo. However, in the case of fine-textured solid materials such as flour, dispersed dust clouds may arise during the pneumatic conveying process of loading flour into the bin \citep{williams2007}. Although LiDAR sensors offer advantages such as rapid data collection and precise spatial representation compared to alternative sensing technologies, their operational wavelengths—usually between 700 to 900 nm—can pose challenges when scanning through layers of dust deposited by stored products. This challenge may potentially impact the accuracy of spatial structure scans.
+
+This study presents the development of a volumetric measurement system for raw materials storage bin. The system is designed to be controlled and scanned remotely using a web-based interface, alleviating the manual process of volume measurement. Additionally, this study investigates the behavior of the system when dust clouds are present during filling due to fine texture of some raw materials such as flour.
 
 %There are various advanced LiDAR technologies such as 3D LiDAR sensors that are available in the market, primarily used for robotics applications, that can address these problems without the need of additional hardware and software configuration. However such sensing devices are too expensive and sophisticated. The focus of this study is to utilized low-cost LiDAR technology to partially mimic the sophisticated functionality of the above mentioned technology.
 
 \section{Objectives of the Study}
 \label{intro:sec:Objectives of the Study}
-The general objective of this study was to develop a system that can remotely measure the volume of the product inside of a flour storage bin using point cloud data and Web-based Application. The following specific goals were completed:
+The general objective of this study was to develop a system that can remotely measure the volume of the product inside of a flour storage bin using point cloud data and web-based Application. The following specific goals were completed:
 
 \begin{enumerate}
 	\item Designed and developed a 3D point cloud scanner system (3D-PCSS);
-	\item Developed a web-based application for remote access and visualization of the system;
+	\item Developed a web-based application for remote access to 3D-PCSS system and visualization for point cloud and volume measurement;
 	\item Tested and evaluated the performance of the system.
 \end{enumerate}
 
@@ -61,14 +63,86 @@ Accurate and efficient post-harvest processes are vital in the food industry to 
 
 \begin{figure}[H]
 	\centering
-	\includegraphics[width=0.9\textwidth, height=0.7\textheight]{conceptual-framework-2}
+	\includegraphics[width=1\textwidth, height=0.9\textheight]{concept_framework.jpg}
 	\caption{General Conceptual Flow}
 	\label{fig:conceptual-framework}
 \end{figure}
 
+Figure \ref{intro:sec:Conceptual Framework} outlines the conceptualization of the study. As shown in the figure, The conceptualization of the study are derived from the examination of prior studies and established methodologies. The study examined existing storage volume measurement methods, 3D point cloud acquisition methods and devices, and different user interface for remote monitoring. The output of this paper is the design and development 3D point cloud scanner system with a web-based application for Storage volumetric measurement. The general and specific objectives are presented in the previous section (see section \ref{intro:sec:Objectives of the Study}).
+
 \section{Theoretical Framework}
 \label{intro:sec:Theoretical Framework}
-The research is based on the idea of using automation for industrial operations, specifically in the food industry. Point cloud data is a collection of an unorganized set of x, y, and z coordinates in a three-dimensional space. There are various ways to acquire point cloud data, and one possible way is through active non-contact sensing technology such as LiDAR sensor. LiDAR uses Time-of-Flight (TOF) method of measuring distance between the sensor to the object. TOF scanners are inexpensive compared to other specialized 3D scanners \citep{chua2017}. The researcher will utilize LiDAR to acquire 3D point cloud data because of its ability to gather points data and converts them into a global world coordinate frame \citep{bi2021}. The study does, however, acknowledge the potential limits of LiDAR, when the environment is prone to medium (e.g., water vapor, gases, dust particle, etc.) that can obstruct the target surface, the LiDAR acquired point cloud data that may alter the precision of the data \citep{chua2017}. Thus, the researcher will manage the raw point cloud data by filtering the factoring medium such as dust. Lastly, Delaunay Triangulation is a computational geometry computation that connects a set points to form a mesh of triangles. It can be used for volume estimation by calculating the volume of a convex hull which will be use in this study.
+This section introduces the fundamental theories that guides the underlying principles, methodologies and technologies involved in the study.
+
+\subsection{Calculating Storage Materials Volume using Depth Measurement}
+The volume of stored grain is typically calculated using the depth measurement. Once the equivalent level height of the grain is determined based on the depth measurement and surface profile assessment, this height is multiplied by the conversion factor to obtain the volume of the stored grain. This calculation accounts for the headspace between the eave and the grain surface. The underlying calculation with a single and non complex geometric shape can be presented as follows:
+
+\begin{equation}
+	V = A \times h
+\end{equation}
+
+Where:
+\begin{align*}
+	V & : \text{Volume of the storage container}   \\
+	A & : \text{Area of the base of the container} \\
+	h & : \text{Height or depth of the container}
+\end{align*}
+
+\subsection{3D Polar Coordinate to Cartesian Coordinate}
+Converting polar coordinates to cartesian coordinates in three dimensions involves considering the radial distance ($\rho$), the polar angle ($\theta$), and the azimuthal angle ($\phi$). Given a point in spherical coordinates ($\rho$, $\theta$, $\phi$), the corresponding Cartesian coordinates ($x$, $y$, $z$) can be calculated as follows:
+\begin{equation}
+	x = \rho \times \sin(\theta) \times \cos(\phi)
+\end{equation}
+\begin{equation}
+	y = \rho \times \sin(\theta) \times \sin(\phi)
+\end{equation}
+\begin{equation}
+	z = \rho \times \cos(\theta)
+\end{equation}
+
+Where:
+$x$, $y$, and $z$ represent the Cartesian coordinates of the point.
+$\rho$ is the radial distance from the origin to the point.
+$\theta$ is the polar angle measured from the positive $z$-axis to the point.
+$\phi$ is the azimuthal angle measured from the positive $x$-axis to the projection of the point onto the $xy$-plane.
+
+\subsection{Point Cloud Data}
+A set of points in three dimensions that represent an object's or scene's surface is called a point cloud. Point clouds can be generated through a variety of methods, including photogrammetry, LiDAR, and 3D scanning. Processing and evaluation of these point clouds for a variety of applications is an increasing area of point cloud processing.
+
+
+\subsection{Computational Geometry using Convex Hull}
+The study of the development and evaluation of algorithms for geometric problems in low dimensions—usually two or three—is known as computational geometry. As the smallest convex polygon containing a given set of points, the Convex Hull is a fundamental concept in computational geometry. The convex hull represents the smallest convex set enclosing a given set of points in a Euclidean space as figure \ref{ch1:fig:convex_hull_theory} illustrated. It adheres to principles of convexity, ensuring that the shape remains convex, and minimality, guaranteeing it encompasses the points with minimal expansion.
+
+The Gift Wrapping algorithm, which has a time complexity of O(nh), where n is the number of points and h is the number of points on the hull, is one straightforward method for calculating the Convex Hull \citep{barber1996quickhull,chan1996optimal}.
+
+The equation \ref{ch1:eq:convex_hull} defines the convex hull of a set of points $P_j$ in N-dimensional space. The variable $C$ represents a point in the convex hull, $\lambda_j$ are non-negative weights, and $A_j$ are some constraints. The summation iterates over all points from $j=1$ to $N$.
+
+\begin{equation}
+	\label{ch1:eq:convex_hull}
+	C = \left\{ \sum_{j=1}^{N} \lambda_j P_j: \lambda_j \geq 0 \text{ for all } j \text{ and } \sum_{j=1}^{N} \lambda_j = 1 \right\}
+\end{equation}
+
+
+
+
+\begin{figure}[H]
+	\centering
+	\includegraphics[width=0.8\textwidth]{convex_hull_3d}
+	\caption{Convex Hull of Set of Points}
+	\label{ch1:fig:convex_hull_theory}
+\end{figure}
+
+TODO: Add Polygon Mesh
+
+\subsection{ROS Nodes, Topics, and Subscribe-Publish Relationship}
+A framework for building complicated robotic systems that is adaptable is called Robot Operating System (ROS). It makes it possible for nodes, software components that carry out particular functions, to communicate with one another. Topics, also referred to as buses, are the methods by which nodes exchange messages with one another. A key component of ROS is the publish-subscribe connection, in which nodes can publish or subscribe to topics.
+
+Nodes in ROS have the ability to simultaneously subscribe to an indefinite number of topics and share data to an indefinite number of topics. One of the main methods of data communication between nodes, and consequently between other components of the system, is through topics \citep{St-Onge2022}. A node must first advertise a topic before publishing content, or messages, into it in order to exchange information. The first part is completed in the node's initialization code, and the second is completed each time new data has to be shared, usually at a predetermined frequency inside the main loop of the code. Conversely, the node or nodes that need the content of a topic will subscribe to it. The subscriber will associate a callback function triggered for each new incoming message \citep{St-Onge2022}.
+
+%These formulas allow you to convert spherical coordinates to Cartesian coordinates, providing a way to represent points in three-dimensional space using different coordinate systems.
+
+
+%The research is based on the idea of using automation for industrial operations, specifically in the food industry. Point cloud data is a collection of an unorganized set of x, y, and z coordinates in a three-dimensional space. There are various ways to acquire point cloud data, and one possible way is through active non-contact sensing technology such as LiDAR sensor. LiDAR uses Time-of-Flight (TOF) method of measuring distance between the sensor to the object. TOF scanners are inexpensive compared to other specialized 3D scanners \citep{chua2017}. The researcher will utilize LiDAR to acquire 3D point cloud data because of its ability to gather points data and converts them into a global world coordinate frame \citep{bi2021}. The study does, however, acknowledge the potential limits of LiDAR, when the environment is prone to medium (e.g., water vapor, gases, dust particle, etc.) that can obstruct the target surface, the LiDAR acquired point cloud data that may alter the precision of the data \citep{chua2017}. Thus, the researcher will manage the raw point cloud data by filtering the factoring medium such as dust. Lastly, Delaunay Triangulation is a computational geometry computation that connects a set points to form a mesh of triangles. It can be used for volume estimation by calculating the volume of a convex hull which will be use in this study.
 
 \section{Definition of Terms}
 \label{intro:sec:Definition of Terms}

@@ -7,46 +7,46 @@ The style file: apalike.bst
 Database file #1: References.bib
 Warning--empty note in clar2022
 Warning--empty journal in duff2000
-Warning--empty journal in williams2007
-You've used 43 entries,
+Warning--can't use both author and editor fields in St-Onge2022
+You've used 41 entries,
             1935 wiz_defined-function locations,
-            729 strings with 12690 characters,
-and the built_in function-call counts, 20322 in all, are:
-= -- 1922
-> -- 1001
-< -- 30
-+ -- 353
-- -- 347
-* -- 1747
-:= -- 3455
-add.period$ -- 130
-call.type$ -- 43
-change.case$ -- 386
-chr.to.int$ -- 43
-cite$ -- 46
-duplicate$ -- 766
-empty$ -- 1360
-format.name$ -- 408
-if$ -- 4090
+            718 strings with 11952 characters,
+and the built_in function-call counts, 19124 in all, are:
+= -- 1817
+> -- 922
+< -- 32
++ -- 332
+- -- 320
+* -- 1627
+:= -- 3241
+add.period$ -- 124
+call.type$ -- 41
+change.case$ -- 362
+chr.to.int$ -- 41
+cite$ -- 44
+duplicate$ -- 735
+empty$ -- 1278
+format.name$ -- 381
+if$ -- 3849
 int.to.chr$ -- 1
 int.to.str$ -- 0
-missing$ -- 42
-newline$ -- 215
-num.names$ -- 137
-pop$ -- 370
+missing$ -- 40
+newline$ -- 206
+num.names$ -- 127
+pop$ -- 351
 preamble$ -- 1
-purify$ -- 385
+purify$ -- 363
 quote$ -- 0
-skip$ -- 591
+skip$ -- 573
 stack$ -- 0
-substring$ -- 1313
-swap$ -- 160
+substring$ -- 1221
+swap$ -- 162
 text.length$ -- 16
 text.prefix$ -- 0
 top$ -- 0
-type$ -- 258
+type$ -- 244
 warning$ -- 3
-while$ -- 142
+while$ -- 135
 width$ -- 0
-write$ -- 561
+write$ -- 535
 (There were 3 warnings)

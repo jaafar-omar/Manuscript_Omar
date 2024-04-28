@@ -1,17 +1,17 @@
 \begin{thebibliography}{}
 
-\bibitem[Afzalaghaeinaeini et~al., 2021]{afzalaghaeinaeini2021}
-Afzalaghaeinaeini, A., Seo, J., Lee, D., and Lee, H. (2021).
-\newblock Design of a lior-based de-dust filter for lidar sensors in off-road
-  vehicles.
-\newblock {\em Engineering Proceedings}, 10(1).
-
 \bibitem[{Auat Cheein} et~al., 2015]{chee2015}
 {Auat Cheein}, F.~A., Guivant, J., Sanz, R., Escolà, A., Yandún, F.,
   Torres-Torriti, M., and Rosell-Polo, J.~R. (2015).
 \newblock Real-time approaches for characterization of fully and partially
   scanned canopies in groves.
 \newblock {\em Computers and Electronics in Agriculture}, 118:361--371.
+
+\bibitem[Barber et~al., 1996]{barber1996quickhull}
+Barber, C.~B., Dobkin, D.~P., and Huhdanpaa, H.~T. (1996).
+\newblock The quickhull algorithm for convex hulls.
+\newblock {\em ACM Transactions on Mathematical Software (TOMS)},
+  22(4):469--483.
 
 \bibitem[Bewley et~al., 2011]{bewley2011}
 Bewley, A., Shekhar, R., Leonard, S., Upcroft, B., and Lever, P. (2011).
@@ -37,6 +37,12 @@ Bulut, S., Giese, T.~G., Wende, M., and Anderl, R. (2020).
   factories.
 \newblock In {\em 2020 IEEE International Conference on Teaching, Assessment,
   and Learning for Engineering (TALE)}, pages 725--730.
+
+\bibitem[Chan, 1996]{chan1996optimal}
+Chan, T. (1996).
+\newblock Optimal output-sensitive convex hull algorithms in two and three
+  dimensions.
+\newblock {\em Discrete \& Computational Geometry}, 16(4):361--368.
 
 \bibitem[Chang et~al., 2017]{chang2017}
 Chang, W.-C., Wu, C.-H., Tsai, Y.-H., and Chiu, W.-Y. (2017).
@@ -77,11 +83,6 @@ Guevara, J., Arevalo-Ramirez, T., Yandun, F., Torres-Torriti, M., and Cheein,
   earthmoving loaders.
 \newblock {\em Automation in Construction}, 117:103207.
 
-\bibitem[Heinzler et~al., 2020]{heinzler2020}
-Heinzler, R., Piewak, F., Schindler, P., and Stork, W. (2020).
-\newblock Cnn-based lidar point cloud de-noising in adverse weather.
-\newblock {\em IEEE Robotics and Automation Letters}, 5(2):2514--2521.
-
 \bibitem[Jaboyedoff et~al., 2012]{jaboyedoff2012}
 Jaboyedoff, M., Oppikofer, T., Abell{\'a}n, A., Derron, M.-H., Loye, A.,
   Metzger, R., and Pedrazzini, A. (2012).
@@ -108,11 +109,16 @@ Kim, Y. (2002).
 \newblock In {\em 2002 IEEE International Conference on Data Mining, 2002.
   Proceedings.}, pages 243--249.
 
-\bibitem[Li et~al., 2020]{li2020}
-Li, Y., Ma, L., Zhong, Z., Liu, F., Cao, D., Li, J., and Chapman, M.~A. (2020).
-\newblock Deep learning for lidar point clouds in autonomous driving: A review.
-\newblock {\em IEEE Transactions on Neural Networks and Learning Systems},
-  32:3412--3432.
+\bibitem[Kumar and Kalita, 2017]{Kumar2017-jl}
+Kumar, D. and Kalita, P. (2017).
+\newblock Reducing postharvest losses during storage of grain crops to
+  strengthen food security in developing countries.
+\newblock {\em Foods}, 6(1).
+
+\bibitem[Lim, 2019]{lim2019cloud}
+Lim, J.~Z. (2019).
+\newblock {\em Cloud Based Ros Implementation for Indoor Robot}.
+\newblock PhD thesis, UTAR.
 
 \bibitem[Liu and Zheng, 2021]{liuY2021}
 Liu, Y. and Zheng, Y. (2021).
@@ -126,17 +132,24 @@ Maus, A. (1984).
   linear time.
 \newblock {\em BIT Numerical Mathematics}, 24(2):151--163.
 
+\bibitem[Meng et~al., 2023]{meng2023}
+Meng, X., Wang, T., Cheng, D., Su, W., Yao, P., Ma, X., and He, M. (2023).
+\newblock Enhanced point cloud slicing method for volume calculation of large
+  irregular bodies: Validation in open-pit mining.
+\newblock {\em Remote Sensing}, 15(20).
+
+\bibitem[Munarso et~al., 2022]{Joni2022}
+Munarso, S.~J., Widayanti, S.~M., and Qanytah (2022).
+\newblock Advances in postharvest technology and its implementation.
+\newblock {\em IOP Conference Series: Earth and Environmental Science},
+  1024(1):012001.
+
 \bibitem[Ocando et~al., 2017]{ocando2017}
 Ocando, M.~G., Certad, N., Alvarado, S., and Terrones, {\'A}. (2017).
 \newblock Autonomous 2d slam and 3d mapping of an environment using a single 2d
   lidar and ros.
 \newblock In {\em 2017 Latin American Robotics Symposium (LARS) and 2017
   Brazilian Symposium on Robotics (SBR)}, pages 1--6.
-
-\bibitem[Park et~al., 2020]{park2020}
-Park, J.-I., Park, J., and Kim, K.-S. (2020).
-\newblock Fast and accurate desnowing algorithm for lidar point clouds.
-\newblock {\em IEEE Access}, 8:160202--160212.
 
 \bibitem[Putman and Popescu, 2018]{putman2018}
 Putman, E.~B. and Popescu, S.~C. (2018).
@@ -145,24 +158,16 @@ Putman, E.~B. and Popescu, S.~C. (2018).
 \newblock {\em IEEE Transactions on Geoscience and Remote Sensing},
   56(11):6484--6503.
 
+\bibitem[Qureshi et~al., 2016]{qureshi2016poster}
+Qureshi, B., Koubaa, A., Sriti, M.-F., Javed, Y., and Alajlan, M. (2016).
+\newblock Poster: Dronemap-a cloud-based architecture for the
+  internet-of-drones.
+\newblock In {\em EWSN}, pages 255--256.
+
 \bibitem[Raj et~al., 2020]{raj2020}
 Raj, T., Hashim, F., Huddin, A., Ibrahim, M.~F., and Hussain, A. (2020).
 \newblock A survey on lidar scanning mechanisms.
 \newblock {\em Electronics}, 9:741.
-
-\bibitem[Rakotosaona et~al., 2020]{rakotosaona2020}
-Rakotosaona, M.-J., La~Barbera, V., Guerrero, P., Mitra, N.~J., and Ovsjanikov,
-  M. (2020).
-\newblock Pointcleannet: Learning to denoise and remove outliers from dense
-  point clouds.
-\newblock {\em Computer Graphics Forum}, 39(1):185--203.
-
-\bibitem[Ramiya et~al., 2017]{ramiya2017}
-Ramiya, A.~M., Nidamanuri, R.~R., and Krishnan, R. (2017).
-\newblock Segmentation based building detection approach from lidar point
-  cloud.
-\newblock {\em The Egyptian Journal of Remote Sensing and Space Science},
-  20(1):71--77.
 
 \bibitem[Rhee et~al., 2021]{rhee2021}
 Rhee, J.~H., Kim, S.~I., Lee, K.~M., Kim, M.~K., and Lim, Y.~M. (2021).
@@ -184,28 +189,11 @@ Sarker, V.~K., Qingqing, L., and Westerlund, T. (2020).
 \newblock In {\em 2020 IEEE Conference on Industrial Cyberphysical Systems
   (ICPS)}, volume~1, pages 49--54.
 
-\bibitem[Shamsudin, 2016]{shamsudin2016}
-Shamsudin, A. (2016).
-\newblock Fog removal using laser beam penetration, laser intensity, and
-  geometrical features for 3d measurements in fog-filled room.
-\newblock {\em Advanced Robotics}, 30.
-
-\bibitem[Stanislas et~al., 2021]{stanislas2021}
-Stanislas, L., Nubert, J., Dugas, D., Nitsch, J., S{\"u}nderhauf, N., Siegwart,
-  R., Cadena, C., and Peynot, T. (2021).
-\newblock Airborne particle classification in lidar point clouds using deep
-  learning.
-\newblock In Ishigami, G. and Yoshida, K., editors, {\em Field and Service
-  Robotics}, pages 395--410, Singapore. Springer Singapore.
-
-\bibitem[Stanislas et~al., 2018]{stanislas2018}
-Stanislas, L., Suenderhauf, N., and Peynot, T. (2018).
-\newblock Lidar-based detection of airborne particles for robust robot
-  perception.
-\newblock In Woodhead, I., editor, {\em Proceedings of the Australasian
-  Conference on Robotics and Automation (ACRA) 2018}, Australasian Conference
-  on Robotics and Automation, ACRA, pages 1--8. Australian Robotics and
-  Automation Association (ARAA), Australia.
+\bibitem[St-Onge and Herath, 2022]{St-Onge2022}
+St-Onge, D. and Herath, D. (2022).
+\newblock {\em The Robot Operating System (ROS1 {\&}2): Programming Paradigms
+  and Deployment}, pages 105--126.
+\newblock Springer Nature Singapore, Singapore.
 
 \bibitem[Stojanovic, 2023]{stojanovic2023point}
 Stojanovic, V. (2023).
@@ -239,19 +227,6 @@ Wang, Q. and Kim, M.-K. (2019).
   fifteen-year review from 2004 to 2018.
 \newblock {\em Advanced Engineering Informatics}, 39:306--319.
 
-\bibitem[Wang et~al., 2020]{wang2020}
-Wang, Q., Tan, Y., and Mei, Z. (2020).
-\newblock Computational methods of acquisition and processing of 3d point cloud
-  data for construction applications.
-\newblock {\em Archives of Computational Methods in Engineering},
-  27(2):479--499.
-
-\bibitem[Williams and Rosentrater, 2007]{williams2007}
-Williams, G. and Rosentrater, K. (2007).
-\newblock Design considerations for the construction and operation of flour
-  milling facilities. part i: Planning, structural, and life safety
-  considerations.
-
 \bibitem[Yegorova et~al., 2021]{yegorova_2021}
 Yegorova, S.~V., Slavyanskiy, A.~A., Postnikova, T.~A., Pereboev, A.~V.,
   Mazanova, G.~V., and Murzakov, M.~G. (2021).
@@ -266,9 +241,17 @@ Yigit, E., İsiker, H., Toktas, A., and Tjuatja, S. (2015).
 \newblock In {\em 2015 IEEE International Geoscience and Remote Sensing
   Symposium (IGARSS)}, pages 3746--3749.
 
-\bibitem[Zhu et~al., 2020]{zhu2020}
-Zhu, R., Ma, S., and Xu, D. (2020).
-\newblock Guided filter simplification method for noisy point cloud data.
-\newblock In {\em 2020 Chinese Automation Congress (CAC)}, pages 6951--6955.
+\bibitem[Yuan et~al., 2021]{yuan2021}
+Yuan, C., Bi, S., Cheng, J., Yang, D., and Wang, W. (2021).
+\newblock Low-cost calibration of matching error between lidar and motor for a
+  rotating 2d lidar.
+\newblock {\em Applied Sciences}, 11(3).
+
+\bibitem[Zhi et~al., 2016]{zhi2016}
+Zhi, Y., Zhang, Y., Chen, H., Yang, K., and Xia, H. (2016).
+\newblock A method of 3d point cloud volume calculation based on slice method.
+\newblock In {\em Proceedings of the 2016 International Conference on
+  Intelligent Control and Computer Application}, pages 155--158. Atlantis
+  Press.
 
 \end{thebibliography}
