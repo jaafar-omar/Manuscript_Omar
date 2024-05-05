@@ -27,15 +27,21 @@
 \contentsline {chapter}{\numberline {III}Methodology}{32}{}%
 \contentsline {section}{\numberline {3.1}System Requirements Analysis}{33}{}%
 \contentsline {section}{\numberline {3.2}Hardware Development}{34}{}%
-\contentsline {subsection}{\numberline {3.2.1}Creating a Storage Bin}{34}{}%
-\contentsline {subsection}{\numberline {3.2.2}3D Point Cloud Scanner Design (3D-PCSS)}{35}{}%
-\contentsline {section}{\numberline {3.3}Software Development}{39}{}%
+\contentsline {subsection}{\numberline {3.2.1}3D Point Cloud Scanner Design (3D-PCSS)}{34}{}%
+\contentsline {section}{\numberline {3.3}Software Development}{40}{}%
 \contentsline {subsection}{\numberline {3.3.1}Operating System and Frameworks}{41}{}%
 \contentsline {subsection}{\numberline {3.3.2}Startup Initialization Process}{42}{}%
-\contentsline {subsection}{\numberline {3.3.3}System Scanning and Point Cloud Processes}{43}{}%
-\contentsline {subsection}{\numberline {3.3.4}Volume Estimation}{43}{}%
-\contentsline {section}{\numberline {3.4}Web-based Application Development}{44}{}%
-\contentsline {section}{\numberline {3.5}Overall System Testing and Evaluation}{45}{}%
-\contentsline {subsection}{\numberline {3.5.1}Different Testing Procedure}{45}{}%
-\contentsline {subsection}{\numberline {3.5.2}Evaluation of the System}{46}{}%
-\contentsline {chapter}{\numberline {IV}Result and Discussion}{48}{}%
+\contentsline {subsection}{\numberline {3.3.3}System Scanning and LiDAR Range Values Processes}{43}{}%
+\contentsline {subsection}{\numberline {3.3.4}Point Cloud Data to Measured Volume}{45}{}%
+\contentsline {section}{\numberline {3.4}Web-based Application Development}{46}{}%
+\contentsline {subsection}{\numberline {3.4.1}Communication Protocol}{47}{}%
+\contentsline {section}{\numberline {3.5}Overall System Testing and Evaluation}{49}{}%
+\contentsline {subsection}{\numberline {3.5.1}Constructing of Storage Bin}{49}{}%
+\contentsline {subsection}{\numberline {3.5.2}Different Testing Case Procedure}{50}{}%
+\contentsline {chapter}{\numberline {IV}Result and Discussion}{53}{}%
+\contentsline {section}{\numberline {4.1}Developed 3D Point Cloud Scanner System (3D-PCSS)}{53}{}%
+\contentsline {subsection}{\numberline {4.1.1}3D-PCSS CAD Design Setup}{53}{}%
+\contentsline {subsection}{\numberline {4.1.2}Actual Design of the 3D-PCSS}{54}{}%
+\contentsline {section}{\numberline {4.2}Software Implementation}{56}{}%
+\contentsline {section}{\numberline {4.3}Web-based User Interface Implementation}{57}{}%
+\contentsline {chapter}{\numberline {A}Components Specification}{66}{}%
