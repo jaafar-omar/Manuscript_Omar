@@ -267,8 +267,8 @@ The web-based interface and 3D-PCSS utilizes WebSocket communication protocol. T
 In this section, various tests were conducted to evaluate the performance of the overall system. After successful development and integration of the system and web application, they were tested and evaluated for accuracy and functionality.
 
 \subsection{Constructing of Storage Bin}
-\label{ch3:subsec:Modeling of Flour Bin}
-To test the performance and accuracy of the overall system, the study involves constructing a mock-up flour storage bin modeled after those commonly used in food manufacturing industries. The mock-up bin is designed to closely mimic the geometric shape and proportions of real storage bins used in practice. The CAD model design, shown in figure \ref{ch3:fig:cad_storage_bin}, serves as the guide for the physical construction. The design is composed of rectangular shape and conical frustum underneath. The CAD design of rectangular shape has a dimension of 2.5 meters in height, 0.5 meters in length, and 0.69 meters in width. The conical frustum, which is tapers from the base of the rectangular section, has a top radius of 0.21 meters, a bottom radius of 0.17 meters and height of 0.21 meters. The 3D-PCSS was placed at the top of created mock-up storage bin for test and evaluation.
+\label{ch3:subsec:constructing-of-storage-bin}
+To test the performance and accuracy of the overall system, the study involves constructing a mock-up flour storage bin modeled after those commonly used in food manufacturing industries. The mock-up bin is designed to closely mimic the geometric shape and proportions of real storage bins used in practice. The CAD model design, shown in figure \ref{ch3:fig:cad_storage_bin}, serves as the guide for the physical construction. The design is composed of rectangular shape and conical frustum underneath. The CAD design of rectangular shape has a dimension of 2.5 meters in height, 0.5 meters in length, and 0.69 meters in width. The conical frustum, which is tapers from the base of the rectangular section, has a top radius of 0.21 meters, a bottom radius of 0.17 meters and height of 0.42 meters. The 3D-PCSS was placed at the top of created mock-up storage bin for test and evaluation.
 
 \begin{figure}[H]
 	\centering
@@ -286,8 +286,9 @@ The study conducted different tests and evaluations to observe the accuracy and 
 In this test case, multiple scans of an empty storage bin were conducted. This involved performing 30 or more scanning trials. By comparing the system's measured volume with the actual volume capacity of the storage bin, the test aimed to validate the overall system's performance and accuracy. This test also provided a baseline for assessing the performance of the developed method.
 
 \subsection*{Test Case 2: Filling the Storage Bin with Known Volume}
+\label{ch3:subsec:test-case-2}
 
-The second test case involved filling the storage bin with flour using containers of known volume. Three specific scenarios were conducted, each with different percentages of the storage bin's maximum capacity, along with known volumes and two different flour surface contour:
+The second test case involved filling the storage bin with flour using containers of known volume. Three specific scenarios were conducted, each with different percentages of the storage bin's maximum capacity, along with known volumes and conducted a two different flour surface contour:
 
 \begin{enumerate}
 	\item The storage bin was filled up to 5.8\% of its maximum capacity, with a known volume of 0.0594 cubic meters.
