@@ -1,0 +1,62 @@
+\contentsline {chapter}{\MakeUppercase []{Title Page}\vspace {-0.5cm}}{1}{}%
+\contentsline {chapter}{\numberline {I}Introduction}{2}{}%
+\contentsline {section}{\numberline {1.1}Background of the Study}{2}{}%
+\contentsline {section}{\numberline {1.2}Statement of the Problem}{4}{}%
+\contentsline {section}{\numberline {1.3}Objectives of the Study}{6}{}%
+\contentsline {section}{\numberline {1.4}Originality of the Study}{6}{}%
+\contentsline {section}{\numberline {1.5}Scope and Limitations}{7}{}%
+\contentsline {section}{\numberline {1.6}Significance of the Study}{7}{}%
+\contentsline {section}{\numberline {1.7}Conceptual Framework}{8}{}%
+\contentsline {section}{\numberline {1.8}Theoretical Framework}{9}{}%
+\contentsline {subsection}{\numberline {1.8.1}Calculating Storage Materials Volume using Depth Measurement}{9}{}%
+\contentsline {subsection}{\numberline {1.8.2}3D Polar Coordinate to Cartesian Coordinate}{10}{}%
+\contentsline {subsection}{\numberline {1.8.3}Point Cloud Data}{11}{}%
+\contentsline {subsection}{\numberline {1.8.4}Computational Geometry using Convex Hull}{11}{}%
+\contentsline {subsection}{\numberline {1.8.5}ROS Nodes, Topics, and Subscribe-Publish Relationship}{12}{}%
+\contentsline {section}{\numberline {1.9}Definition of Terms}{13}{}%
+\contentsline {chapter}{\numberline {II}Review of Related Literature}{15}{}%
+\contentsline {section}{\numberline {2.1}Overview of Existing Methods, Techniques and Technologies Used for Volume Measurement}{15}{}%
+\contentsline {section}{\numberline {2.2}Point Cloud Acquisition Devices}{17}{}%
+\contentsline {subsection}{\numberline {2.2.1}Light Detection and Ranging (LiDAR)}{18}{}%
+\contentsline {subsection}{\numberline {2.2.2}Rotating 2D LiDAR Scanner into a 3D Point Cloud Scanner: Mechanisms and Techniques}{20}{}%
+\contentsline {section}{\numberline {2.3}Volume Measurement Using 3D Point Cloud Data}{23}{}%
+\contentsline {subsection}{\numberline {2.3.1}Frameworks for Point Cloud Processing, Visualization, and Mapping}{23}{}%
+\contentsline {subsection}{\numberline {2.3.2}Techniques and Methods for Volume Estimation Using Computational Geometry}{24}{}%
+\contentsline {section}{\numberline {2.4}Robot Web Tools Application for ROS Remote Monitoring}{27}{}%
+\contentsline {section}{\numberline {2.5}Synthesis of the Study}{28}{}%
+\contentsline {chapter}{\numberline {III}Methodology}{31}{}%
+\contentsline {section}{\numberline {3.1}3D Point Cloud Scanner System Development}{32}{}%
+\contentsline {subsection}{\numberline {3.1.1}Hardware Development}{33}{}%
+\contentsline {subsubsection}{\numberline {3.1.1.1}Point Cloud Scanner System}{35}{}%
+\contentsline {subsubsection}{\numberline {3.1.1.2}Rotating Mechanism}{35}{}%
+\contentsline {subsection}{\numberline {3.1.2}Software Development}{38}{}%
+\contentsline {subsubsection}{\numberline {3.1.2.1}Operating System and Frameworks}{40}{}%
+\contentsline {subsubsection}{\numberline {3.1.2.2}Startup Initialization Process}{41}{}%
+\contentsline {subsubsection}{\numberline {3.1.2.3}System Scanning and LiDAR Range Values Processes}{42}{}%
+\contentsline {subsubsection}{\numberline {3.1.2.4}Point Cloud Data to Measured Volume}{44}{}%
+\contentsline {section}{\numberline {3.2}Web-based Application Development}{45}{}%
+\contentsline {subsection}{\numberline {3.2.1}Communication Protocol}{46}{}%
+\contentsline {section}{\numberline {3.3}Overall System Testing and Evaluation}{48}{}%
+\contentsline {subsection}{\numberline {3.3.1}Testing Setup}{48}{}%
+\contentsline {subsection}{\numberline {3.3.2}Different Testing Case Methods}{49}{}%
+\contentsline {subsubsection}{\numberline {3.3.2.1}Test Case 1: Empty Storage Bin Scanning}{50}{}%
+\contentsline {subsubsection}{\numberline {3.3.2.2}Test Case 2: Filling the Storage Bin with Known Volume}{50}{}%
+\contentsline {subsection}{\numberline {3.3.3}System Evaluation}{51}{}%
+\contentsline {chapter}{\numberline {IV}Result and Discussion}{53}{}%
+\contentsline {section}{\numberline {4.1}Developed 3D Point Cloud Scanner System (3D-PCSS)}{53}{}%
+\contentsline {subsection}{\numberline {4.1.1}3D-PCSS CAD Design Setup}{53}{}%
+\contentsline {subsection}{\numberline {4.1.2}Actual Design of the 3D-PCSS}{54}{}%
+\contentsline {section}{\numberline {4.2}Software Implementation}{56}{}%
+\contentsline {section}{\numberline {4.3}Web-based User Interface Implementation}{57}{}%
+\contentsline {subsection}{\numberline {4.3.1}UI Different Dashboard}{59}{}%
+\contentsline {section}{\numberline {4.4}Overall System Integration}{61}{}%
+\contentsline {section}{\numberline {4.5}Testing Result and Data Analysis}{61}{}%
+\contentsline {subsection}{\numberline {4.5.1}Created Mock-up Storage Bin}{62}{}%
+\contentsline {subsection}{\numberline {4.5.2}Actual System Setup}{63}{}%
+\contentsline {subsection}{\numberline {4.5.3}Test Case 1: Empty Storage Bin Scanning}{64}{}%
+\contentsline {subsection}{\numberline {4.5.4}Test Case 2: Filling the Storage Bin with Known Volume}{67}{}%
+\contentsline {subsection}{\numberline {4.5.5}Summary of the Conducted Test Cases}{74}{}%
+\contentsline {chapter}{\numberline {V}Conclusion and Recommendation}{75}{}%
+\contentsline {section}{\numberline {5.1}Conclusion}{75}{}%
+\contentsline {section}{\numberline {5.2}Recommendations}{76}{}%
+\contentsline {chapter}{\numberline {A}Components Specification}{84}{}%

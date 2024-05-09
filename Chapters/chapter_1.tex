@@ -24,13 +24,13 @@ Recent innovations in various industries have made the production less manual bu
 \label{intro:sec:Statement of the Problem}
 %A variety of product that stored in a silo can be solid, powdered and liquid. When the product such as solid grains, corn are being stored, minimal dust cloud are generated during filling process. However, when powdered products such as cement or flour are being filled, a dense dust cloud are created. Ideally, when LiDAR is used for measuring the distance between the product and the door, it is installed at the top. Due to the fine-texture of solid materials such as flour product, a dispersed dust cloud may form during the pneumatic conveying process of loading flour into the bin \citep{williams2007}. Although LiDAR sensor have the ability to provide faster data collection and detailed spatial illustration compared to other sensing technologies, and the precision of distance measurement is undeniable, the wavelengths that LiDAR operates, typically, 700 to 900 nm can be problematic when deposit layers of dust formed caused by stored product as it may caused a problem when scanning the spatial structure of the product.
 
-While some food manufacturing industries still rely on manual and labor-intensive storage measurement procedures, there is a growing need to adopt advanced technologies with remote capabilities. This shift aims to eliminate the need for frequent physical processes that may endanger employees. Additionally, monitoring the volume of raw product storage, particularly in industries dealing with essential commodities like flour, holds paramount importance for various reasons. Ensuring accurate and timely monitoring of storage bins prevents detrimental scenarios such as underproduction or overstocking. In the case of underproduction, inadequate monitoring leading to stockouts can disrupt the production process, resulting in delayed deliveries and potential loss of sales. Conversely, overstocking can lead to unnecessary inventory costs, space constraints, and increased risk of product spoilage or infestation. Specifically, in the context of flour storage, overstocking can attract flour beetles, leading to infestation and contamination of the stored flour when left unsold. Thus, precise volume monitoring is crucial to maintaining optimal inventory levels, facilitating efficient production planning, and mitigating the risk of financial losses and product quality issues for food manufacturing industries.
+While some food manufacturing industries still rely on manual and labor-intensive storage measurement procedures, there is a growing need to adopt advanced technologies with remote capabilities. This shift aims to eliminate the need for frequent physical processes that may endanger employees. Additionally, monitoring the volume of raw product storage, particularly in industries dealing with essential commodities like flour, holds paramount importance for various reasons. Ensuring accurate and timely monitoring of storage bins prevents detrimental scenarios such as underproduction or overstocking. In the case of underproduction, inadequate monitoring leading to stockouts can disrupt the production process, resulting in delayed deliveries and potential loss of sales. Conversely, overstocking can lead to unnecessary inventory costs, space constraints, and increased risk of product spoilage or infestation. Specifically, in the context of flour storage, overstocking can attract flour beetles, leading to infestation and contamination of the stored flour when left unsold. Thus, precise volume monitoring is crucial to maintaining optimal inventory levels, facilitating efficient production planning, and mitigating the risk of financial losses and product quality issues for food manufacturing industries. One challenging factor in developing technology in this area is ensuring the system's accuracy while maintaining a compact and portable design for easy integration and installation.
 
 %Silo storage systems are versatile, accommodating a wide range of products, including solids, powders, and liquids. One characteristic of product storages is that when they are filled with raw materials, except for liquids, they create a dust cloud in the empty space. Solid grains like corn typically produce minimal dust clouds during filling, whereas powdered substances like cement or flour often generate dense dust clouds.
 
 %When implementing LiDAR for storage volume measurement, the ideal placement is at the top of the silo. However, in the case of fine-textured solid materials such as flour, dispersed dust clouds may arise during the pneumatic conveying process of loading flour into the bin \citep{williams2007}. Although LiDAR sensors offer advantages such as rapid data collection and precise spatial representation compared to alternative sensing technologies, their operational wavelengths—usually between 700 to 900 nm—can pose challenges when scanning through layers of dust deposited by stored products. This challenge may potentially impact the accuracy of spatial structure scans.
 
-This study presents the development of a volumetric measurement system for raw materials storage bin. The system is designed to be controlled and scanned remotely using a web-based interface, alleviating the manual process of volume measurement. Additionally, this study investigates the behavior of the system when dust clouds are present during filling due to fine texture of some raw materials such as flour.
+This study presents the development of a volumetric measurement system for flour storage bin. The system is designed to be controlled and scanned remotely using a web-based interface.
 
 %There are various advanced LiDAR technologies such as 3D LiDAR sensors that are available in the market, primarily used for robotics applications, that can address these problems without the need of additional hardware and software configuration. However such sensing devices are too expensive and sophisticated. The focus of this study is to utilized low-cost LiDAR technology to partially mimic the sophisticated functionality of the above mentioned technology.
 
@@ -39,36 +39,47 @@ This study presents the development of a volumetric measurement system for raw m
 The general objective of this study was to develop a system that can remotely measure the volume of the product inside of a flour storage bin using point cloud data and web-based Application. The following specific goals were completed:
 
 \begin{enumerate}
-	\item Designed and developed a 3D point cloud scanner system (3D-PCSS);
-	\item Developed a web-based application for remote access to 3D-PCSS system and visualization for point cloud and volume measurement;
+	\item Developed a 3D point cloud scanner system (3D-PCSS);
+	\item Developed a web-based user interface for remote access to 3D-PCSS system and visualization for point cloud and volume measurement;
 	\item Tested and evaluated the performance of the system.
 \end{enumerate}
 
 \section{Originality of the Study}
 \label{intro:sec:Originality of the Study}
-The originality of this study lies in the development of a system capable of remotely estimating and monitoring the volume and capacity of storage materials. This study introduces two distinct components: the point cloud acquisition system and the web application system designed for remote monitoring purposes. Furthermore, the study explores the system's behavior in the presence of dust, providing insights for further enhancement and modification.
+The originality of this study lies in the development of a system capable of remotely estimating and monitoring the volume and capacity of storage materials. This study introduces two distinct components: the point cloud scanner system and the web application system designed for remote monitoring purposes. The contribution of this study are the following:
+
+\begin{itemize}
+	\item Development of 3D Point Cloud Scanner System, specifically for flour materials volume measurement for flour storage bin.
+	\item Development of web-based user interface used specifically for 3D Point Cloud Scanner System.
+\end{itemize}
 
 \section{Scope and Limitations}
 \label{intro:sec:Scope and Limitations}
-The scope of this study is to develop a volume estimation system through remote point cloud acquisition and a web application. It is important to note that the system testing was not conducted directly in a commercial manufacturing industry or an actual industrial storage bin. Instead, testing took place in an open area using a mock-up storage bin designed to replicate the size and shape of a typical industrial storage facility. Additionally, the study exclusively focuses on utilizing flour as the primary raw material for testing purposes.
 
+The scope and limitations of this study are the following:
+
+\begin{itemize}
+	\item The aim of the study is to develop a volume measurement intended for flour storage bin.
+	\item The conducted testing of the system was not done to any commercial manufacturing industry.
+	\item The study focuses on utilizing flour as the primary raw material for testing purposes.
+\end{itemize}
 
 \section{Significance of the Study}
 \label{intro:sec:Significance of the Study}
 
-Accurate and efficient post-harvest processes are vital in the food industry to ensure effective inventory management and maintain an adequate supply of materials. Automation with remote sensing devices is a modern technology that can be integrated into a variety of industries, eliminating labor-intensive tasks that may expose employees to dangerous scenarios. The development of the 3D point cloud scanner system (3D-PCSS) addresses the need for precise volume measurement of stored flour within silo storage bins. By employing point cloud data and a web-based application, the system offers remote accessibility and visualization capabilities, allowing for convenient monitoring and management of storage facilities. This technological advancement, with potential integration into industrial settings, not only enhances efficiency in inventory management but also minimizes the risks associated with manual measurement procedures. Furthermore, the testing and evaluation of the system provide valuable insights into its performance and potential for further refinement, paving the way for future advancements in automated storage volume measurement systems.
+Accurate and efficient post-harvest processes are vital in the food industry to ensure effective inventory management and maintain an adequate supply of materials. Volume measurement automation can be integrated into a variety of industries, eliminating labor-intensive tasks that may expose employees to dangerous scenarios. The development of the 3D point cloud scanner system (3D-PCSS) addresses the need for precise volume measurement of stored flour within flour storage bin. Furthermore, the testing and evaluation of the system provide valuable insights into its performance and potential for further development.
 
 \section{Conceptual Framework}
 \label{intro:sec:Conceptual Framework}
 
 \begin{figure}[H]
 	\centering
-	\includegraphics[width=1\textwidth, height=0.9\textheight]{concept_framework.jpg}
+	\includegraphics[width=0.8\textwidth]{conceptual_framework_diagram.jpg}
 	\caption{General Conceptual Flow}
 	\label{fig:conceptual-framework}
 \end{figure}
 
-Figure \ref{intro:sec:Conceptual Framework} outlines the conceptualization of the study. As shown in the figure, The conceptualization of the study are derived from the examination of prior studies and established methodologies. The study examined existing storage volume measurement methods, 3D point cloud acquisition methods and devices, and different user interface for remote monitoring. The output of this paper is the design and development 3D point cloud scanner system with a web-based application for Storage volumetric measurement. The general and specific objectives are presented in the previous section (see section \ref{intro:sec:Objectives of the Study}).
+Figure \ref{intro:sec:Conceptual Framework} outlines the conceptualization of the study. As shown in the figure, the general concept of the study where the system is placed at the top of the flour bin and controlled and visualized by the user interface. The measurement of the volume of the flour materials is determined by scanning the empty space of the flour bin and generating empty space 3D point cloud data.
 
 \section{Theoretical Framework}
 \label{intro:sec:Theoretical Framework}

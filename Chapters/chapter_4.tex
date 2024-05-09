@@ -114,6 +114,7 @@ The rectangular shape of the bin measures 2.775 meters in height, with lengths a
 
 With these dimensions, the individual and total volume capacities of the storage bin were calculated. Table \ref{ch4:tab:volume-calculation} provides a summary of the measured individual and total volume capacity of the bin. \\
 
+
 \begin{table}[H]
 	\centering
 	\caption{Individual and Total Volume of the Storage Bin}
@@ -152,7 +153,14 @@ The actual field system setup shown in figure \ref{ch4:fig:actual-system-setup} 
 
 \subsection{Test Case 1: Empty Storage Bin Scanning}
 
-Multiple scans of an empty storage bin were performed to evaluate the system's performance in accurately measuring the volume of the empty storage bin. Table \ref{table:test_case_1_results} summarizes the results obtained from 37 scanning trials.
+Multiple scans of an empty storage bin were performed to evaluate the system's performance in accurately measuring the volume of the empty storage bin. Figure \ref{ch4:fig:empty-bin-point-cloud} shows the empty bin with the actual scanned point cloud shape. Table \ref{table:test_case_1_results} summarizes the results obtained from 37 scanning trials.
+
+\begin{figure}[H]
+	\centering
+	\includegraphics[width=1\textwidth]{Figures/empty-bin-point-cloud}
+	\caption{Constructed Storage Bin Setup}
+	\label{ch4:fig:empty-bin-point-cloud}
+\end{figure}
 
 \begin{table}[H]
 	\centering
@@ -213,7 +221,15 @@ The average measured volume across all trials was determined to be 1.00919 $\pm$
 
 \subsection{Test Case 2: Filling the Storage Bin with Known Volume}
 
-In this test case, three different scenarios were conducted to evaluate the system's accuracy in measuring the volume of flour filled into the storage bin with different storage percentage capacity such as: 5.8\%, 47.2\% and 70.3\% of the storage's maximum capacity. Each scenario conducted two different flour surface contour as outline in section \ref{ch3:subsec:test-case-2}. The results show the different flour surface contour first, followed by the data table. %Table \ref{table:test_case_2_results} presents the results obtained from each scenario.
+In this test case, three different scenarios were conducted to evaluate the system's accuracy in measuring the volume of flour filled into the storage bin with different storage percentage capacity such as: 5.8\%, 47.2\% and 70.3\% of the storage's maximum capacity, the storage bin was filled with a known volume using the container shown in figure \ref{ch4:fig:known-volume}. Each scenario conducted two different flour surface contour as outline in section \ref{ch3:subsec:test-case-2}. The results show the different flour surface contour first, followed by the data table.
+
+\begin{figure}[H]
+	\centering
+	\includegraphics[width=0.8\textwidth]{Figures/known-volume}
+	\caption{Container with a Known Volume Used for Testing}
+	\label{ch4:fig:known-volume}
+\end{figure}
+
 
 \subsubsection*{Test Case 2.1: Storage Bin Filled to 5.8\% of Maximum Capacity}
 
@@ -226,12 +242,12 @@ In this test case, three different scenarios were conducted to evaluate the syst
 
 \begin{table}[H]
 	\centering
-	\caption{Results of Test Case 2.1}
-	\label{table:test_case_1_results}
+	\caption{Test Case 2.1 Result}
+	\label{table:test_case_2-1_results}
 	\begin{tabular}{l c c r}
 		\toprule
-		\textbf{Trials} & \multicolumn{2}{c}{\textbf{Measured Volume ($m^{3}$)}} & \textbf{Actual Volume} ($m^{3}$)          \\ \midrule
-		{}              & Contour 1                                              & Contour 2                        & {}     \\ 
+		\textbf{Trials} & \multicolumn{2}{c}{\textbf{Measured Volume ($m^{3}$)}} & \textbf{Actual Volume} ($m^{3}$)          \\
+		{}              & Contour 1                                              & Contour 2                        & {}     \\ \midrule
 		1               & 0.06                                                   & 0.0592                           & 0.0594 \\
 		2               & 0.05934                                                & 0.0601                           & 0.0594 \\
 		3               & 0.058943                                               & 0.0589                           & 0.0594 \\
@@ -268,8 +284,8 @@ The results from Test Case 2.1 gathered an average measured volume of 0.059678 $
 \end{figure}
 \begin{table}[H]
 	\centering
-	\caption{Results of Test Case 1: Empty Storage Bin Scanning}
-	\label{table:test_case_1_results}
+	\caption{Test Case 2.2 Result}
+	\label{table:test_case_2-2_results}
 	\begin{tabular}{l c c r}
 		\toprule
 		\textbf{Trials} & \multicolumn{2}{c}{\textbf{Measured Volume ($m^{3}$)}} & \textbf{Actual Volume} ($m^{3}$)          \\
@@ -302,8 +318,8 @@ The results from Test Case 2.2 gathered an average measured volume of 0.47407038
 
 \begin{table}[H]
 	\centering
-	\caption{Results of Test Case 1: Empty Storage Bin Scanning}
-	\label{table:test_case_1_results}
+	\caption{Test Case 2.3 Result}
+	\label{table:test_case_2-3_results}
 	\begin{tabular}{l c c r}
 		\toprule
 		\textbf{Trials} & \multicolumn{2}{c}{\textbf{Measured Volume ($m^{3}$)}} & \textbf{Actual Volume} ($m^{3}$)          \\
@@ -354,11 +370,11 @@ The table \ref{ch4:tab:test-2-summary} indicates that the system achieved an ave
 	\centering
 	\caption{Summary of the of Test Case 2}
 	\label{ch4:tab:test-cases-summary}
-	\begin{tabular}{c l c r}
+	\begin{tabular}{l l c r}
 		\toprule
 		\multicolumn{2}{l}{\textbf{Test Cases}} & \textbf{Average Measured Volume with Deviation ($m^{3}$)} & \textbf{MAPE (\%)}                \\ \midrule
 
-		\multicolumn{2}{c}{1}                   & 1.009189 $\pm$ 0.0078356                                  & 0.5993776                         \\
+		\multicolumn{2}{l}{1}                   & 1.009189 $\pm$ 0.0078356                                  & 0.5993776                         \\
 
 		{}                                      & 2.1                                                       & 0.0595 $\pm$ 0.0004626 & 0.71633  \\
 
@@ -370,4 +386,4 @@ The table \ref{ch4:tab:test-2-summary} indicates that the system achieved an ave
 	\end{tabular}
 \end{table}
 
-The table \ref{ch4:tab:test-cases-summary} indicates that the system achieved an average MAPE of 1.01308 across the three conducted tests. This suggests that the system is capable of accurately measuring the volume of the flour product across varying storage capacities, up to a maximum level of 70.3\%.
+The table \ref{ch4:tab:test-cases-summary} summarizes the two test cases conducted. The system achieved an average MAPE of 0.909655\% indicates an error of $<1\%$ with a highest error of 1.27379\% and lowest error of 0.5993776\%.
