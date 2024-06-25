@@ -1,15 +1,24 @@
 \addvspace {10\p@ }
 \addvspace {10\p@ }
 \contentsline {table}{\numberline {2.1}{\ignorespaces Point Cloud Volume of Different Model}}{27}{}%
+\contentsline {table}{\numberline {2.2}{\ignorespaces Research Synthesis Matrix}}{31}{}%
+\addvspace {10\p@ }
+\contentsline {table}{\numberline {3.1}{\ignorespaces Tools and Frameworks Used in the Web Application}}{49}{}%
+\addvspace {10\p@ }
+\contentsline {table}{\numberline {4.1}{\ignorespaces LiDAR Range Calibration Results}}{72}{}%
+\contentsline {table}{\numberline {4.2}{\ignorespaces Sevo Angle Calibration Results}}{73}{}%
+\contentsline {table}{\numberline {4.3}{\ignorespaces Individual and Total Volume of the Storage Bin}}{74}{}%
+\contentsline {table}{\numberline {4.4}{\ignorespaces Actual and Measured Volume of Empty Storage Bin Volume Measurement Result}}{78}{}%
+\contentsline {table}{\numberline {4.5}{\ignorespaces Volume Measurements Calibration Result of the System Across Two Contours with A Known Volume of 0.0594 $m^3$}}{81}{}%
+\contentsline {table}{\numberline {4.6}{\ignorespaces Volume Measurements Calibration Result of the System Across Two Contours with A Known Volume of 0.4752 $m^3$}}{83}{}%
+\contentsline {table}{\numberline {4.7}{\ignorespaces Volume Measurements Calibration Result of the System Across Two Contours with A Known Volume of 0.7128 $m^3$}}{85}{}%
+\contentsline {table}{\numberline {4.8}{\ignorespaces Comparison of Volume Measurement Using the 3D Point Cloud Scanner System and Traditional Sounding Method for Different Surface Contours}}{87}{}%
 \addvspace {10\p@ }
 \addvspace {10\p@ }
-\contentsline {table}{\numberline {4.1}{\ignorespaces Tools and Frameworks Used in the Web-based User Interface}}{58}{}%
-\contentsline {table}{\numberline {4.2}{\ignorespaces Individual and Total Volume of the Storage Bin}}{62}{}%
-\contentsline {table}{\numberline {4.3}{\ignorespaces Results of Test Case 1: Empty Storage Bin Scanning}}{66}{}%
-\contentsline {table}{\numberline {4.4}{\ignorespaces Test Case 2.1 Result}}{69}{}%
-\contentsline {table}{\numberline {4.5}{\ignorespaces Test Case 2.2 Result}}{70}{}%
-\contentsline {table}{\numberline {4.6}{\ignorespaces Test Case 2.3 Result}}{72}{}%
-\contentsline {table}{\numberline {4.7}{\ignorespaces Summary of the of Test Case 2}}{73}{}%
-\contentsline {table}{\numberline {4.8}{\ignorespaces Summary of the of Test Case 2}}{74}{}%
 \addvspace {10\p@ }
 \addvspace {10\p@ }
+\contentsline {table}{\numberline {C.1}{\ignorespaces One Sample-test for Actual and Measured Volume of Empty Storage Bin Volume Measurement Result}}{117}{}%
+\contentsline {table}{\numberline {C.2}{\ignorespaces ANOVA Results of Volume Measurements Calibration Result of the System Across Two Contours with A Known Volume of 0.0594 $m^3$}}{117}{}%
+\contentsline {table}{\numberline {C.3}{\ignorespaces ANOVA Results of Volume Measurements Calibration Result of the System Across Two Contours with A Known Volume of 0.4752 $m^3$}}{117}{}%
+\contentsline {table}{\numberline {C.4}{\ignorespaces ANOVA Results of Volume Measurements Calibration Result of the System Across Two Contours with A Known Volume of 0.7128 $m^3$}}{117}{}%
+\contentsline {table}{\numberline {C.5}{\ignorespaces One Sample-test for Comparison of Volume Measurement of the System VS. Sounding Method}}{118}{}%

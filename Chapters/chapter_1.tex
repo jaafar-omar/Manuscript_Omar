@@ -36,21 +36,25 @@ This study presents the development of a volumetric measurement system for flour
 
 \section{Objectives of the Study}
 \label{intro:sec:Objectives of the Study}
-The general objective of this study was to develop a system that can remotely measure the volume of the product inside of a flour storage bin using point cloud data and web-based Application. The following specific goals were completed:
+The general objective of this study was to develop a system that can measure the volume of the product inside of a flour storage bin. The following specific goals were completed:
 
 \begin{enumerate}
-	\item Developed a 3D point cloud scanner system (3D-PCSS);
-	\item Developed a web-based user interface for remote access to 3D-PCSS system and visualization for point cloud and volume measurement;
+	\item Developed a 3D point cloud scanner system.
+	      % \begin{itemize}[label=\textbullet]
+	      % 	\item 
+	      % 	\item Sub-item 2
+	      % \end{itemize}
+	\item Developed a web-based application that can send a command to the system and visualization for point cloud and volume measurement;
 	\item Tested and evaluated the performance of the system.
 \end{enumerate}
 
 \section{Originality of the Study}
 \label{intro:sec:Originality of the Study}
-The originality of this study lies in the development of a system capable of remotely estimating and monitoring the volume and capacity of storage materials. This study introduces two distinct components: the point cloud scanner system and the web application system designed for remote monitoring purposes. The contribution of this study are the following:
+The originality of this study lies from addressing existing gaps in volume estimation and monitoring systems for flour storage bins, in the development of a system capable of estimating and monitoring the volume and capacity of flour storage bin. The contribution of this study to the scientific community are the following:
 
 \begin{itemize}
-	\item Development of 3D Point Cloud Scanner System, specifically for flour materials volume measurement for flour storage bin.
-	\item Development of web-based user interface used specifically for 3D Point Cloud Scanner System.
+	\item Development of 3D Point Cloud Scanner System specifically for measuring the volume of flour materials within storage bins.
+	\item Development of web-based application integrated to the system for point cloud and volume visualization.
 \end{itemize}
 
 \section{Scope and Limitations}
@@ -72,14 +76,14 @@ Accurate and efficient post-harvest processes are vital in the food industry to 
 \section{Conceptual Framework}
 \label{intro:sec:Conceptual Framework}
 
+Figure \ref{intro:sec:Conceptual Framework} outlines the conceptual framework of the study. As illustrated in the figure, the study's general concept involves placing the system at the top of the flour bin and controlling it through the web application. The volume of the flour materials is determined by scanning the empty space within the flour bin and generating 3D point cloud data of the empty space. Finally, the point cloud data and measured volume are displayed in the web application.
+
 \begin{figure}[H]
 	\centering
-	\includegraphics[width=0.8\textwidth]{conceptual_framework_diagram.jpg}
+	\includegraphics[width=0.6\textwidth, height=1.2\textwidth]{conceptual_framework_diagram.jpg}
 	\caption{General Conceptual Flow}
 	\label{fig:conceptual-framework}
 \end{figure}
-
-Figure \ref{intro:sec:Conceptual Framework} outlines the conceptualization of the study. As shown in the figure, the general concept of the study where the system is placed at the top of the flour bin and controlled and visualized by the user interface. The measurement of the volume of the flour materials is determined by scanning the empty space of the flour bin and generating empty space 3D point cloud data.
 
 \section{Theoretical Framework}
 \label{intro:sec:Theoretical Framework}
@@ -89,7 +93,7 @@ This section introduces the fundamental theories that guides the underlying prin
 The volume of stored grain is typically calculated using the depth measurement. Once the equivalent level height of the grain is determined based on the depth measurement and surface profile assessment, this height is multiplied by the conversion factor to obtain the volume of the stored grain. This calculation accounts for the headspace between the eave and the grain surface. The underlying calculation with a single and non complex geometric shape can be presented as follows:
 
 \begin{equation}
-	V = A \times h
+	V = A \cdot h
 \end{equation}
 
 Where:
@@ -102,13 +106,13 @@ Where:
 \subsection{3D Polar Coordinate to Cartesian Coordinate}
 Converting polar coordinates to cartesian coordinates in three dimensions involves considering the radial distance ($\rho$), the polar angle ($\theta$), and the azimuthal angle ($\phi$). Given a point in spherical coordinates ($\rho$, $\theta$, $\phi$), the corresponding Cartesian coordinates ($x$, $y$, $z$) can be calculated as follows:
 \begin{equation}
-	x = \rho \times \sin(\theta) \times \cos(\phi)
+	x = \rho \cdot \sin(\theta) \cdot \cos(\phi)
 \end{equation}
 \begin{equation}
-	y = \rho \times \sin(\theta) \times \sin(\phi)
+	y = \rho \cdot \sin(\theta) \cdot \sin(\phi)
 \end{equation}
 \begin{equation}
-	z = \rho \times \cos(\theta)
+	z = \rho \cdot \cos(\theta)
 \end{equation}
 
 Where:
@@ -117,6 +121,13 @@ $\rho$ is the radial distance from the origin to the point.
 $\theta$ is the polar angle measured from the positive $z$-axis to the point.
 $\phi$ is the azimuthal angle measured from the positive $x$-axis to the projection of the point onto the $xy$-plane.
 
+\begin{figure}[H]
+	\centering
+	\includegraphics[width=1\textwidth]{Figures/point cloud conversion}
+	\caption{LiDAR Scan Range Conversion from Polar Coordintes $(\rho,\theta,\phi)$, to Cartesian Coordinate $(x,y,z)$}
+	\label{ch3:fig:point_cloud_conversion}
+\end{figure}
+
 \subsection{Point Cloud Data}
 A set of points in three dimensions that represent an object's or scene's surface is called a point cloud. Point clouds can be generated through a variety of methods, including photogrammetry, LiDAR, and 3D scanning. Processing and evaluation of these point clouds for a variety of applications is an increasing area of point cloud processing.
 
@@ -124,7 +135,7 @@ A set of points in three dimensions that represent an object's or scene's surfac
 \subsection{Computational Geometry using Convex Hull}
 The study of the development and evaluation of algorithms for geometric problems in low dimensions—usually two or three—is known as computational geometry. As the smallest convex polygon containing a given set of points, the Convex Hull is a fundamental concept in computational geometry. The convex hull represents the smallest convex set enclosing a given set of points in a Euclidean space as figure \ref{ch1:fig:convex_hull_theory} illustrated. It adheres to principles of convexity, ensuring that the shape remains convex, and minimality, guaranteeing it encompasses the points with minimal expansion.
 
-The Gift Wrapping algorithm, which has a time complexity of O(nh), where n is the number of points and h is the number of points on the hull, is one straightforward method for calculating the Convex Hull \citep{barber1996quickhull,chan1996optimal}.
+The Gift Wrapping algorithm, which has a time complexity of O(nh), where n is the number of points and h is the number of points on the hull, is one straightforward method for calculating the Convex Hull.
 
 The equation \ref{ch1:eq:convex_hull} defines the convex hull of a set of points $P_j$ in N-dimensional space. The variable $C$ represents a point in the convex hull, $\lambda_j$ are non-negative weights, and $A_j$ are some constraints. The summation iterates over all points from $j=1$ to $N$.
 
@@ -142,8 +153,6 @@ The equation \ref{ch1:eq:convex_hull} defines the convex hull of a set of points
 	\caption{Convex Hull of Set of Points}
 	\label{ch1:fig:convex_hull_theory}
 \end{figure}
-
-TODO: Add Polygon Mesh
 
 \subsection{ROS Nodes, Topics, and Subscribe-Publish Relationship}
 A framework for building complicated robotic systems that is adaptable is called Robot Operating System (ROS). It makes it possible for nodes, software components that carry out particular functions, to communicate with one another. Topics, also referred to as buses, are the methods by which nodes exchange messages with one another. A key component of ROS is the publish-subscribe connection, in which nodes can publish or subscribe to topics.

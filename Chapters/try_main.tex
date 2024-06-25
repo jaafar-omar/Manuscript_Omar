@@ -1,0 +1,141 @@
+\documentclass[a4paper,12pt]{report}
+\usepackage{indentfirst}
+	\setlength{\parindent}{2.30em}
+
+\setcounter{tocdepth}{3}
+\setcounter{secnumdepth}{3}
+
+\usepackage{pdflscape}
+% \usepackage{subfigure}
+\usepackage{subcaption}
+\usepackage{rotating}
+\usepackage{wrapfig}
+\usepackage{lscape}
+\usepackage{booktabs,tabularx}
+\usepackage{verbatim}
+\usepackage{lscape}
+\usepackage{chicago}
+\usepackage{cite}
+\usepackage{enumitem}
+\usepackage{mathptmx}
+\usepackage{amsmath,amssymb,amsfonts}
+\usepackage{algorithm, algorithmic}
+\usepackage{wasysym}
+\usepackage{bm}
+\usepackage{cleveref}
+\usepackage{xfrac}
+\usepackage{xr}
+\usepackage{multirow}
+\usepackage{apacite}
+\usepackage{tikz}
+\usetikzlibrary{calc}
+\usetikzlibrary{decorations.pathmorphing}
+\usepackage{changepage}
+\usepackage{appendix}
+
+\usepackage[top=4.572cm, bottom=3.175cm, left=3.81cm, right=3.175cm]{geometry}
+\usepackage{sectsty}  % section font size
+	\sectionfont{\normalsize}
+	\subsectionfont{\normalsize}
+	\subsubsectionfont{\normalsize}
+	\paragraphfont{\normalsize}
+	\subparagraphfont{\normalsize}
+\usepackage{etoolbox} % remove spaces before and after paragraph
+\usepackage{setspace} % control linespacing
+	\setstretch{2.0}
+\usepackage{IEEEtrantools}		%for IEEE
+\usepackage{natbib}
+\usepackage{graphicx}
+	\graphicspath{{./Figures/}}
+\DeclareGraphicsExtensions{.pdf,.jpeg,.jpg,.png}
+
+\usepackage{textcomp}
+% \usepackage[dvipsnames]{xcolor}
+\usepackage{caption}
+\captionsetup{format=hang, font=normalsize, labelfont=bf, justification=justified, labelsep=period}
+
+%Pagination
+\usepackage{fancyhdr}
+	\pagestyle{fancyplain}% <- use fancyplain instead fancy
+	\fancyhf{}
+	\fancyhead[R]{\thepage}
+	\renewcommand{\headrulewidth}{0pt}
+
+\usepackage[utf8]{inputenc}
+
+\makeatletter
+	\patchcmd{\@makechapterhead}{\vspace*{50\p@}}{}{}{}% Removes space above \chapter head
+	\patchcmd{\@makeschapterhead}{\vspace*{50\p@}}{}{}{}% Removes space above \chapter* head
+	\chapterfont{\normalsize \centering \MakeUppercase}
+    
+ \renewcommand*\contentsname{Table of Contents}
+
+\tolerance=1
+\emergencystretch=\maxdimen
+\hyphenpenalty=10000
+\hbadness=10000
+
+\begin{document} 
+\pagenumbering{gobble}
+\pagenumbering{roman}
+	\input{Chapters/Title Page} 
+ 	\clearpage
+  \setcounter{page}{2}
+	\input{Chapters/approval_sheet}
+ 	\clearpage
+ \setcounter{page}{3}
+	\input{Chapters/abstract}
+ 	\clearpage
+\setcounter{page}{4}
+	\input{Chapters/dedication}
+ 	\clearpage
+\setcounter{page}{5}
+	\input{Chapters/acknowledgement}
+ 	\clearpage
+  
+\setcounter{page}{6}    \renewcommand\contentsname{\normalsize{\MakeUppercase{Table of Contents}}}	
+	\addtocounter{page}{1}
+
+	\addcontentsline{toc}{chapter}{\MakeUppercase{Table of Contents}\vspace{-0.5cm}}
+ \tableofcontents \newpage
+ 
+	\addcontentsline{toc}{chapter} {\MakeUppercase{List of Figures}\vspace{-0.5cm}}
+	\listoffigures \newpage
+ 
+	\addcontentsline{toc}{chapter} {\MakeUppercase{List of Tables} \vspace{-0.5cm}}
+  	\listoftables \newpage
+
+\pagenumbering{arabic}
+   \input{Chapters/Chapter 1.tex} %Introduction
+   \input{Chapters/Chapter 2.tex} %RRL
+   \input{Chapters/Chapter 3.tex} %Methodology
+  \input{Chapters/Chapter 4} %Results and Discussion
+  \input{Chapters/Chapter 5} %Conclusion and Recommendation
+	
+    % \bibliographystyle{apacite}
+	% \bibliographystyle{IEEEtran}
+
+	\addcontentsline{toc}{chapter}{\MakeUppercase{References}\vspace{-0.5cm}}
+  \bibliography{Chapters/References}
+  \bibliographystyle{apalike}
+
+  \appendix
+  \addcontentsline{toc}{chapter}{\MakeUppercase{Appendices}\vspace{-0.5cm}}
+	\input{Chapters/AppendixA} 
+ \newpage
+	\input{Chapters/AppendixB} 
+ \newpage
+ % 	\input{Chapters/AppendixC} 
+ % \newpage
+ %  	\input{Chapters/AppendixD} 
+ % \newpage
+ %   	\input{Chapters/AppendixE} 
+ % \newpage
+ %   	\input{Chapters/AppendixF} 
+ % \newpage
+  % \addcontentsline{toc}{chapter}{\MakeUppercase{Curriculum Vitae}\vspace{-0.5cm}} 
+ 	% \input{Chapters/CV}
+  \newpage
+  \addcontentsline{toc}{chapter}{\MakeUppercase{Certificate of Authentic Authorship}\vspace{-0.5cm}}
+	\input{Chapters/cert_auth} %cert of authentic authorship
+\end{document}

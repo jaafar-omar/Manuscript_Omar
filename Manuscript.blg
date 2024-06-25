@@ -9,45 +9,45 @@ Warning--empty note in clar2022
 Warning--empty journal in duff2000
 Warning--empty booktitle in raba2020
 Warning--can't use both author and editor fields in St-Onge2022
-You've used 42 entries,
+You've used 40 entries,
             1935 wiz_defined-function locations,
-            722 strings with 12120 characters,
-and the built_in function-call counts, 19688 in all, are:
-= -- 1872
-> -- 945
-< -- 33
-+ -- 342
-- -- 328
-* -- 1668
-:= -- 3326
-add.period$ -- 127
-call.type$ -- 42
-change.case$ -- 371
-chr.to.int$ -- 42
-cite$ -- 46
-duplicate$ -- 761
-empty$ -- 1318
-format.name$ -- 390
-if$ -- 3971
+            707 strings with 11761 characters,
+and the built_in function-call counts, 18892 in all, are:
+= -- 1791
+> -- 920
+< -- 32
++ -- 332
+- -- 320
+* -- 1596
+:= -- 3190
+add.period$ -- 121
+call.type$ -- 40
+change.case$ -- 357
+chr.to.int$ -- 40
+cite$ -- 44
+duplicate$ -- 733
+empty$ -- 1258
+format.name$ -- 380
+if$ -- 3818
 int.to.chr$ -- 1
 int.to.str$ -- 0
-missing$ -- 41
-newline$ -- 211
-num.names$ -- 130
-pop$ -- 365
+missing$ -- 39
+newline$ -- 201
+num.names$ -- 124
+pop$ -- 356
 preamble$ -- 1
-purify$ -- 372
+purify$ -- 358
 quote$ -- 0
-skip$ -- 594
+skip$ -- 573
 stack$ -- 0
-substring$ -- 1263
-swap$ -- 171
+substring$ -- 1187
+swap$ -- 169
 text.length$ -- 17
 text.prefix$ -- 0
 top$ -- 0
-type$ -- 250
+type$ -- 238
 warning$ -- 4
-while$ -- 139
+while$ -- 131
 width$ -- 0
-write$ -- 547
+write$ -- 521
 (There were 4 warnings)

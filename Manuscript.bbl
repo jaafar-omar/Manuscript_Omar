@@ -7,12 +7,6 @@
   scanned canopies in groves.
 \newblock {\em Computers and Electronics in Agriculture}, 118:361--371.
 
-\bibitem[Barber et~al., 1996]{barber1996quickhull}
-Barber, C.~B., Dobkin, D.~P., and Huhdanpaa, H.~T. (1996).
-\newblock The quickhull algorithm for convex hulls.
-\newblock {\em ACM Transactions on Mathematical Software (TOMS)},
-  22(4):469--483.
-
 \bibitem[Bewley et~al., 2011]{bewley2011}
 Bewley, A., Shekhar, R., Leonard, S., Upcroft, B., and Lever, P. (2011).
 \newblock Real-time volume estimation of a dragline payload.
@@ -37,12 +31,6 @@ Bulut, S., Giese, T.~G., Wende, M., and Anderl, R. (2020).
   factories.
 \newblock In {\em 2020 IEEE International Conference on Teaching, Assessment,
   and Learning for Engineering (TALE)}, pages 725--730.
-
-\bibitem[Chan, 1996]{chan1996optimal}
-Chan, T. (1996).
-\newblock Optimal output-sensitive convex hull algorithms in two and three
-  dimensions.
-\newblock {\em Discrete \& Computational Geometry}, 16(4):361--368.
 
 \bibitem[Chang et~al., 2017]{chang2017}
 Chang, W.-C., Wu, C.-H., Tsai, Y.-H., and Chiu, W.-Y. (2017).

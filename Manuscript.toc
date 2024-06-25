@@ -1,17 +1,24 @@
-\contentsline {chapter}{\MakeUppercase []{Title Page}\vspace {-0.5cm}}{1}{}%
-\contentsline {chapter}{\numberline {I}Introduction}{2}{}%
-\contentsline {section}{\numberline {1.1}Background of the Study}{2}{}%
-\contentsline {section}{\numberline {1.2}Statement of the Problem}{4}{}%
-\contentsline {section}{\numberline {1.3}Objectives of the Study}{6}{}%
-\contentsline {section}{\numberline {1.4}Originality of the Study}{6}{}%
-\contentsline {section}{\numberline {1.5}Scope and Limitations}{7}{}%
-\contentsline {section}{\numberline {1.6}Significance of the Study}{7}{}%
-\contentsline {section}{\numberline {1.7}Conceptual Framework}{8}{}%
-\contentsline {section}{\numberline {1.8}Theoretical Framework}{9}{}%
-\contentsline {subsection}{\numberline {1.8.1}Calculating Storage Materials Volume using Depth Measurement}{9}{}%
-\contentsline {subsection}{\numberline {1.8.2}3D Polar Coordinate to Cartesian Coordinate}{10}{}%
-\contentsline {subsection}{\numberline {1.8.3}Point Cloud Data}{11}{}%
-\contentsline {subsection}{\numberline {1.8.4}Computational Geometry using Convex Hull}{11}{}%
+\contentsline {chapter}{\MakeUppercase []{Title Page}\vspace {-0.5cm}}{i}{}%
+\contentsline {chapter}{\MakeUppercase []{Approval Sheet}\vspace {-0.5cm}}{ii}{}%
+\contentsline {chapter}{\MakeUppercase []{abstract}\vspace {-0.5cm}}{iii}{}%
+\contentsline {chapter}{\MakeUppercase []{Dedication}\vspace {-0.5cm}}{iv}{}%
+\contentsline {chapter}{\MakeUppercase []{acknowledgement}\vspace {-0.5cm}}{v}{}%
+\contentsline {chapter}{\MakeUppercase []{Table of Contents}\vspace {-0.5cm}}{vii}{}%
+\contentsline {chapter}{\MakeUppercase []{List of Figures}\vspace {-0.5cm}}{xiii}{}%
+\contentsline {chapter}{\MakeUppercase []{List of Tables} \vspace {-0.5cm}}{xvi}{}%
+\contentsline {chapter}{\numberline {I}Introduction}{1}{}%
+\contentsline {section}{\numberline {1.1}Background of the Study}{1}{}%
+\contentsline {section}{\numberline {1.2}Statement of the Problem}{3}{}%
+\contentsline {section}{\numberline {1.3}Objectives of the Study}{4}{}%
+\contentsline {section}{\numberline {1.4}Originality of the Study}{5}{}%
+\contentsline {section}{\numberline {1.5}Scope and Limitations}{5}{}%
+\contentsline {section}{\numberline {1.6}Significance of the Study}{6}{}%
+\contentsline {section}{\numberline {1.7}Conceptual Framework}{6}{}%
+\contentsline {section}{\numberline {1.8}Theoretical Framework}{8}{}%
+\contentsline {subsection}{\numberline {1.8.1}Calculating Storage Materials Volume using Depth Measurement}{8}{}%
+\contentsline {subsection}{\numberline {1.8.2}3D Polar Coordinate to Cartesian Coordinate}{9}{}%
+\contentsline {subsection}{\numberline {1.8.3}Point Cloud Data}{10}{}%
+\contentsline {subsection}{\numberline {1.8.4}Computational Geometry using Convex Hull}{10}{}%
 \contentsline {subsection}{\numberline {1.8.5}ROS Nodes, Topics, and Subscribe-Publish Relationship}{12}{}%
 \contentsline {section}{\numberline {1.9}Definition of Terms}{13}{}%
 \contentsline {chapter}{\numberline {II}Review of Related Literature}{15}{}%
@@ -24,39 +31,60 @@
 \contentsline {subsection}{\numberline {2.3.2}Techniques and Methods for Volume Estimation Using Computational Geometry}{24}{}%
 \contentsline {section}{\numberline {2.4}Robot Web Tools Application for ROS Remote Monitoring}{27}{}%
 \contentsline {section}{\numberline {2.5}Synthesis of the Study}{28}{}%
-\contentsline {chapter}{\numberline {III}Methodology}{31}{}%
-\contentsline {section}{\numberline {3.1}3D Point Cloud Scanner System Development}{32}{}%
-\contentsline {subsection}{\numberline {3.1.1}Hardware Development}{33}{}%
-\contentsline {subsubsection}{\numberline {3.1.1.1}Point Cloud Scanner System}{35}{}%
-\contentsline {subsubsection}{\numberline {3.1.1.2}Rotating Mechanism}{35}{}%
-\contentsline {subsection}{\numberline {3.1.2}Software Development}{38}{}%
-\contentsline {subsubsection}{\numberline {3.1.2.1}Operating System and Frameworks}{40}{}%
-\contentsline {subsubsection}{\numberline {3.1.2.2}Startup Initialization Process}{41}{}%
-\contentsline {subsubsection}{\numberline {3.1.2.3}System Scanning and LiDAR Range Values Processes}{42}{}%
-\contentsline {subsubsection}{\numberline {3.1.2.4}Point Cloud Data to Measured Volume}{44}{}%
-\contentsline {section}{\numberline {3.2}Web-based Application Development}{45}{}%
-\contentsline {subsection}{\numberline {3.2.1}Communication Protocol}{46}{}%
-\contentsline {section}{\numberline {3.3}Overall System Testing and Evaluation}{48}{}%
-\contentsline {subsection}{\numberline {3.3.1}Testing Setup}{48}{}%
-\contentsline {subsection}{\numberline {3.3.2}Different Testing Case Methods}{49}{}%
-\contentsline {subsubsection}{\numberline {3.3.2.1}Test Case 1: Empty Storage Bin Scanning}{50}{}%
-\contentsline {subsubsection}{\numberline {3.3.2.2}Test Case 2: Filling the Storage Bin with Known Volume}{50}{}%
-\contentsline {subsection}{\numberline {3.3.3}System Evaluation}{51}{}%
-\contentsline {chapter}{\numberline {IV}Result and Discussion}{53}{}%
-\contentsline {section}{\numberline {4.1}Developed 3D Point Cloud Scanner System (3D-PCSS)}{53}{}%
-\contentsline {subsection}{\numberline {4.1.1}3D-PCSS CAD Design Setup}{53}{}%
-\contentsline {subsection}{\numberline {4.1.2}Actual Design of the 3D-PCSS}{54}{}%
-\contentsline {section}{\numberline {4.2}Software Implementation}{56}{}%
-\contentsline {section}{\numberline {4.3}Web-based User Interface Implementation}{57}{}%
-\contentsline {subsection}{\numberline {4.3.1}UI Different Dashboard}{59}{}%
-\contentsline {section}{\numberline {4.4}Overall System Integration}{61}{}%
-\contentsline {section}{\numberline {4.5}Testing Result and Data Analysis}{61}{}%
-\contentsline {subsection}{\numberline {4.5.1}Created Mock-up Storage Bin}{62}{}%
-\contentsline {subsection}{\numberline {4.5.2}Actual System Setup}{63}{}%
-\contentsline {subsection}{\numberline {4.5.3}Test Case 1: Empty Storage Bin Scanning}{64}{}%
-\contentsline {subsection}{\numberline {4.5.4}Test Case 2: Filling the Storage Bin with Known Volume}{67}{}%
-\contentsline {subsection}{\numberline {4.5.5}Summary of the Conducted Test Cases}{74}{}%
-\contentsline {chapter}{\numberline {V}Conclusion and Recommendation}{75}{}%
-\contentsline {section}{\numberline {5.1}Conclusion}{75}{}%
-\contentsline {section}{\numberline {5.2}Recommendations}{76}{}%
-\contentsline {chapter}{\numberline {A}Components Specification}{84}{}%
+\contentsline {chapter}{\numberline {III}Methodology}{34}{}%
+\contentsline {section}{\numberline {3.1}3D Point Cloud Scanner System Development}{35}{}%
+\contentsline {subsection}{\numberline {3.1.1}Hardware Development}{36}{}%
+\contentsline {subsubsection}{\numberline {3.1.1.1}2D LiDAR Scanner}{36}{}%
+\contentsline {subsubsection}{\numberline {3.1.1.2}Rotating Mechanism}{37}{}%
+\contentsline {subsection}{\numberline {3.1.2}Software Development}{39}{}%
+\contentsline {subsubsection}{\numberline {3.1.2.1}Operating System and Frameworks}{41}{}%
+\contentsline {subsubsection}{\numberline {3.1.2.2}Startup Initialization Process}{42}{}%
+\contentsline {subsubsection}{\numberline {3.1.2.3}System Scanning Process}{43}{}%
+\contentsline {subsubsection}{\numberline {3.1.2.4}Volume Measurement Process}{45}{}%
+\contentsline {section}{\numberline {3.2}Web Application Development}{48}{}%
+\contentsline {subsection}{\numberline {3.2.1}Different Tools and Framework}{48}{}%
+\contentsline {subsection}{\numberline {3.2.2}Dashboard Development}{50}{}%
+\contentsline {subsection}{\numberline {3.2.3}Overall System Integration}{50}{}%
+\contentsline {section}{\numberline {3.3}System Testing and Evaluation}{52}{}%
+\contentsline {subsection}{\numberline {3.3.1}LiDAR and Servo Calibration Test}{52}{}%
+\contentsline {subsection}{\numberline {3.3.2}System Volume Measurement Calibration Test}{53}{}%
+\contentsline {subsubsection}{\numberline {3.3.2.1}Testing Setup}{53}{}%
+\contentsline {subsubsection}{\numberline {3.3.2.2}Empty Storage Volume Measurement Calibration}{55}{}%
+\contentsline {subsubsection}{\numberline {3.3.2.3}Different Volume Quantity Measurement Calibration}{55}{}%
+\contentsline {subsubsection}{\numberline {3.3.2.4}Volume Measurement Using the System and Sounding Method Test}{56}{}%
+\contentsline {subsection}{\numberline {3.3.3}System Evaluation}{57}{}%
+\contentsline {subsubsection}{\numberline {3.3.3.1}LiDAR Range Evaluation}{57}{}%
+\contentsline {subsubsection}{\numberline {3.3.3.2}Servo Angle Evaluation}{57}{}%
+\contentsline {subsubsection}{\numberline {3.3.3.3}Empty Storage Bin Volume Measurement Evaluation}{58}{}%
+\contentsline {subsubsection}{\numberline {3.3.3.4}Different Volume Quatity Measurement Evaluation}{58}{}%
+\contentsline {subsubsection}{\numberline {3.3.3.5}Comparison Evaluation of the System and Sounding Method}{59}{}%
+\contentsline {chapter}{\numberline {IV}Result and Discussion}{60}{}%
+\contentsline {section}{\numberline {4.1}3D Point Cloud Scanner System}{60}{}%
+\contentsline {subsection}{\numberline {4.1.1}Actual Prototype of the 3D Point Cloud Scanner System}{62}{}%
+\contentsline {subsection}{\numberline {4.1.2}Software Development Result}{63}{}%
+\contentsline {section}{\numberline {4.2}Web Application Implementation}{68}{}%
+\contentsline {subsection}{\numberline {4.2.1}Overall System Integration}{71}{}%
+\contentsline {section}{\numberline {4.3}System Testing and Evaluation Result}{71}{}%
+\contentsline {subsection}{\numberline {4.3.1}LiDAR and Servo Calibration Test Result}{71}{}%
+\contentsline {subsubsection}{\numberline {4.3.1.1}LiDAR Range Calibration}{72}{}%
+\contentsline {subsubsection}{\numberline {4.3.1.2}Servo Angle Calibration}{72}{}%
+\contentsline {subsection}{\numberline {4.3.2}System Volume Measurement Calibration Result}{73}{}%
+\contentsline {subsubsection}{\numberline {4.3.2.1}Testing Setup Result}{73}{}%
+\contentsline {subsubsection}{\numberline {4.3.2.2}Empty Storage Volume Measurement Calibration Test Result}{76}{}%
+\contentsline {subsubsection}{\numberline {4.3.2.3}Different Volume Quantity Measurement Calibration Test Result}{79}{}%
+\contentsline {subsubsection}{\numberline {4.3.2.4}Volume Measurement Using the System and Sounding Method Result}{85}{}%
+\contentsline {subsection}{\numberline {4.3.3}System Evaluation}{88}{}%
+\contentsline {subsubsection}{\numberline {4.3.3.1}LiDAR Calibration Evaluation}{88}{}%
+\contentsline {subsubsection}{\numberline {4.3.3.2}Servo Calibration Evaluation}{88}{}%
+\contentsline {subsubsection}{\numberline {4.3.3.3}Empty Storage Volume Measurement}{89}{}%
+\contentsline {subsubsection}{\numberline {4.3.3.4}Different Volume Quantity Measurement}{89}{}%
+\contentsline {subsubsection}{\numberline {4.3.3.5}Comparison Evaluation of the System and Sounding Method}{90}{}%
+\contentsline {chapter}{\numberline {V}Conclusion and Recommendation}{91}{}%
+\contentsline {section}{\numberline {5.1}Conclusion}{91}{}%
+\contentsline {section}{\numberline {5.2}Recommendations}{92}{}%
+\contentsline {chapter}{\MakeUppercase []{References}\vspace {-0.5cm}}{92}{}%
+\contentsline {chapter}{\MakeUppercase []{Appendices}\vspace {-0.5cm}}{99}{}%
+\contentsline {chapter}{\numberline {A}Components Specification}{100}{}%
+\contentsline {chapter}{\numberline {B}Testing Documentation}{105}{}%
+\contentsline {chapter}{\numberline {C}STATISTICAL DATA}{117}{}%
+\contentsline {chapter}{\MakeUppercase []{Certificate of Authentic Authorship}\vspace {-0.5cm}}{119}{}%

@@ -1,9 +1,9 @@
 \documentclass[a4paper, 12pt]{report}
 \usepackage{indentfirst}
-	\setlength{\parindent}{2.30em}
-    \setcounter{tocdepth}{4}
-    \setcounter{secnumdepth}{4}
-	
+\setlength{\parindent}{2.30em}
+\setcounter{tocdepth}{3}
+\setcounter{secnumdepth}{3}
+
 \usepackage{pdflscape}
 \usepackage{subfigure}
 \usepackage{rotating}
@@ -18,7 +18,23 @@
 \usepackage{cleveref}
 \usepackage{xfrac}
 \usepackage{palatino, url}
+\usepackage{makecell}
+\usepackage{array}
 \usepackage{minted}
+\usepackage{enumitem}
+\setlist{  
+  listparindent=\parindent,
+  parsep=0pt,
+}
+\usepackage{multirow}
+\usepackage{tikz}
+\usetikzlibrary{calc}
+\usetikzlibrary{decorations.pathmorphing}
+\usepackage{changepage} % Add this line to include the adjustwidth environment
+\usepackage{appendix}
+\usepackage{float}
+\usepackage{threeparttable}
+\usepackage{longtable}
 
 \usepackage[top=4.572cm, bottom=3.175cm, left=3.81cm, right=3.175cm]{geometry}
 \usepackage{sectsty}  % section font size
@@ -31,93 +47,121 @@
 \usepackage{siunitx}
 \usepackage{etoolbox} % remove spaces before and after paragraph
 \usepackage{setspace} % control linespacing
-	\setstretch{2}
+\setstretch{2.0}
 %\usepackage{apacite}
 %\usepackage{IEEEtrantools}
 \usepackage{natbib}
 
 \usepackage{graphicx}
-	\graphicspath{{./Figures/}}
-	\DeclareGraphicsExtensions{.pdf,.jpeg,.jpg,.png}
+\graphicspath{{./Figures/}}
+\DeclareGraphicsExtensions{.pdf,.jpeg,.jpg,.png}
 
 \usepackage{textcomp}
 \usepackage[dvipsnames]{xcolor}
 
 \usepackage{caption}
-\captionsetup{format=hang, font=normalsize, labelfont=bf, justification=justified, labelsep=period}
-
-% Pagination
-
-\usepackage{fancyhdr}
-	\pagestyle{fancyplain} % <- use fancyplain instead fancy
-	\fancyhf{}
-	\fancyhead[R]{\thepage}
-	\renewcommand{\headrulewidth}{0pt}
+\captionsetup[figure]{format=hang, font=normalsize, labelfont=bf, justification=centering, labelsep=period, singlelinecheck=false}
+\captionsetup[table]{format=hang, font=normalsize, labelfont=bf, justification=justified, labelsep=period, singlelinecheck=false, width=\textwidth}
 
 \makeatletter
-	\patchcmd{\@makechapterhead}{\vspace*{60\p@}}{}{}{}% Removes space above \chapter head
+\newcommand\fullwidthcaption[1]{%
+  \captionsetup{justification=raggedright, singlelinecheck=false, width=\linewidth}%
+  \caption{#1}%
+}
+\makeatother
+
+\makeatletter
+\newcommand\smalltable[1]{%
+  \captionsetup{justification=centering, singlelinecheck=false, width=\linewidth}%
+  \caption{#1}%
+}
+\makeatother
+
+% Pagination
+\usepackage{fancyhdr}
+\pagestyle{fancyplain} % <- use fancyplain instead fancy
+\fancyhf{}
+\fancyhead[R]{\thepage}
+\renewcommand{\headrulewidth}{0pt}
+
+\makeatletter
+	\patchcmd{\@makechapterhead}{\vspace*{50\p@}}{}{}{}% Removes space above \chapter head
 	\patchcmd{\@makeschapterhead}{\vspace*{50\p@}}{}{}{}% Removes space above \chapter* head
 	\chapterfont{\normalsize \centering \MakeUppercase}
+\makeatother
+
+\makeatletter
+	\renewcommand\section{\leftskip 0pt\@startsection {section}{1}{\z@}%
+	{-3.5ex \@plus -1ex \@minus -.2ex}%
+	{2.3ex \@plus.2ex}%
+	{\normalfont\fontsize{12}{14}\selectfont\bfseries}} % Adjusted font size to 12pt
+	\renewcommand\subsection{\leftskip 0pt\@startsection{subsection}{2}{\z@}%
+	{-3.25ex\@plus -1ex \@minus -.2ex}%
+	{1.5ex \@plus .2ex}%
+	{\normalfont\fontsize{12}{14}\selectfont\bfseries}} % Adjusted font size to 12pt
+	\newcommand\Xsubsubsection{\@startsection{subsubsection}{3}{\z@}%
+	{-3.25ex\@plus -1ex \@minus -.2ex}%
+	{1.5ex \@plus .2ex}%
+	{\normalfont\fontsize{12}{14}\selectfont\bfseries\leftskip 3ex}} % Adjusted font size to 12pt
+	\renewcommand\subsubsection[1]{\Xsubsubsection{#1}\leftskip 3ex}
+\makeatother
 
 \begin{document}
-\begin{titlepage}
-	\setlength{\topmargin}{-40pt}
-	\setlength{\textheight}{664pt}
-	\addcontentsline{toc}{chapter}{\MakeUppercase{Title Page}\vspace{-0.5cm}}
-	\begin{singlespace}
-		\begin{center}
-			\textbf{\MakeUppercase{Design and Development of 3D Point Cloud Scanner System (3D-PCSS) with A Web-based Interface for Flour Bin Volumetric Measurement}}
-			\vspace{2.50cm}
 
-			\MakeUppercase{A THESIS}
-
-			\vspace{2.0cm}
-
-			Presented to the Faculty of\\
-			Department of Computer Applications\\
-			College of Computer Studies \\
-			Mindanao State University -- Iligan Institute of Technology
-
-			\vspace{2.0cm}
-
-
-			In Partial Fulfillment\\
-			of the Requirements for the Degree\\
-			MASTER OF SCIENCE IN COMPUTER APPLICATIONS
-
-			\vspace{2.25cm}
-
-			\textbf{JAAFAR J. OMAR}
-
-			\vspace{3.0cm}
-
-			\textbf{ENGR. CARL JOHN O. SALAAN, Ph.D.} \\
-			Adviser
-			\vspace{2.0cm}
-
-			March 2023
-
-		\end{center}
-	\end{singlespace}
-\end{titlepage}
-
+% \input{Chapters/approval_sheet.tex}
+\pagenumbering{gobble}
 \pagenumbering{roman}
-\tableofcontents
-\listoffigures
-\listoftables
+% \tableofcontents
+% \listoffigures
+% \listoftables
+\input{Chapters/title-page.tex}
+\clearpage
+\setcounter{page}{2}
+\input{Chapters/approval_sheet.tex}
+\clearpage
+\setcounter{page}{3}
+\input{Chapters/abstract.tex}
+\clearpage
+\setcounter{page}{4}
+\input{Chapters/dedication.tex}
+\clearpage
+\setcounter{page}{5}
+\input{Chapters/acknowledgement.tex}
+\clearpage
+
+\setcounter{page}{6}    \renewcommand\contentsname{\normalsize{\MakeUppercase{Table of Contents}}}
+\addtocounter{page}{1}
+
+\addcontentsline{toc}{chapter}{\MakeUppercase{Table of Contents}\vspace{-0.5cm}}
+\tableofcontents \newpage
+
+\addcontentsline{toc}{chapter} {\MakeUppercase{List of Figures}\vspace{-0.5cm}}
+\listoffigures \newpage
+
+\addcontentsline{toc}{chapter} {\MakeUppercase{List of Tables} \vspace{-0.5cm}}
+\listoftables \newpage
 
 \pagenumbering{arabic}
-
 \input{Chapters/chapter_1.tex}
 \input{Chapters/chapter_2.tex}
 \input{Chapters/chapter_3.tex}
 \input{Chapters/chapter_4.tex}
 \input{Chapters/chapter_5.tex}
+
+\addcontentsline{toc}{chapter}{\MakeUppercase{References}\vspace{-0.5cm}}
 \bibliography{References}
 \bibliographystyle{apalike}
 
 \appendix
+\addcontentsline{toc}{chapter}{\MakeUppercase{Appendices}\vspace{-0.5cm}}
 \input{Chapters/appendices_a.tex}
+\newpage
+\input{Chapters/appendices_b.tex}
 
+\input{Chapters/appendices_c.tex}
+
+\newpage
+\addcontentsline{toc}{chapter}{\MakeUppercase{Certificate of Authentic Authorship}\vspace{-0.5cm}}
+\input{Chapters/cert_auth.tex} %cert of authentic authorship
 
 \end{document}

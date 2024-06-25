@@ -1,42 +1,45 @@
 \addvspace {10\p@ }
-\contentsline {figure}{\numberline {1.1}{\ignorespaces General Conceptual Flow}}{8}{}%
-\contentsline {figure}{\numberline {1.2}{\ignorespaces Convex Hull of Set of Points}}{12}{}%
+\contentsline {figure}{\numberline {1.1}{\ignorespaces General Conceptual Flow}}{7}{}%
+\contentsline {figure}{\numberline {1.2}{\ignorespaces LiDAR Scan Range Conversion from Polar Coordintes $(\rho ,\theta ,\phi )$, to Cartesian Coordinate $(x,y,z)$}}{10}{}%
+\contentsline {figure}{\numberline {1.3}{\ignorespaces Convex Hull of Set of Points}}{12}{}%
 \addvspace {10\p@ }
 \contentsline {figure}{\numberline {2.1}{\ignorespaces Typical LiDAR System}}{19}{}%
 \contentsline {figure}{\numberline {2.2}{\ignorespaces 360-degree scan of 2D LiDAR}}{20}{}%
 \contentsline {figure}{\numberline {2.3}{\ignorespaces Four different configurations for rotating: (a) pitching scan, (b) rolling scan, (c) yawing scan, (d) top yawing scan}}{21}{}%
 \contentsline {figure}{\numberline {2.4}{\ignorespaces Convex Hull}}{26}{}%
 \addvspace {10\p@ }
-\contentsline {figure}{\numberline {3.1}{\ignorespaces System Development Process}}{31}{}%
-\contentsline {figure}{\numberline {3.2}{\ignorespaces 3D Point Cloud Scanner Development Flow Chart}}{33}{}%
-\contentsline {figure}{\numberline {3.3}{\ignorespaces Hardware Components of the System}}{34}{}%
-\contentsline {figure}{\numberline {3.4}{\ignorespaces Block Diagram Connection of the Components}}{34}{}%
-\contentsline {figure}{\numberline {3.5}{\ignorespaces Scan Direction of LiDAR and Movement Direction of the Servo}}{37}{}%
-\contentsline {figure}{\numberline {3.6}{\ignorespaces Synchronization Process of LiDAR and Servo}}{38}{}%
-\contentsline {figure}{\numberline {3.7}{\ignorespaces System Idle Mode Process Flow Chart}}{40}{}%
-\contentsline {figure}{\numberline {3.8}{\ignorespaces From Scanning to Mapped Point Cloud Data Flow Chart}}{43}{}%
-\contentsline {figure}{\numberline {3.9}{\ignorespaces LiDAR Scan Range Conversion from Polar Coordintes $(\rho ,\theta ,\phi )$, to Cartesian Coordinate $(x,y,z)$}}{44}{}%
-\contentsline {figure}{\numberline {3.10}{\ignorespaces Web Application Connection Process Flow Chart}}{46}{}%
-\contentsline {figure}{\numberline {3.11}{\ignorespaces Communication Protocol of the Web Interface and the System}}{48}{}%
-\contentsline {figure}{\numberline {3.12}{\ignorespaces CAD Model Design of the Storage Bin}}{49}{}%
+\contentsline {figure}{\numberline {3.1}{\ignorespaces System Architecture Block Diagram: (A) 3D Point Cloud Scanner System, (B) Web Application}}{34}{}%
+\contentsline {figure}{\numberline {3.2}{\ignorespaces System Development Process}}{35}{}%
+\contentsline {figure}{\numberline {3.3}{\ignorespaces 3D Point Cloud Scanner Development Flow Chart}}{36}{}%
+\contentsline {figure}{\numberline {3.4}{\ignorespaces Scan Direction of LiDAR and Movement Direction of the Servo}}{38}{}%
+\contentsline {figure}{\numberline {3.5}{\ignorespaces Synchronization Process of LiDAR and Servo}}{39}{}%
+\contentsline {figure}{\numberline {3.6}{\ignorespaces Nodes, Topics and their Relationships}}{40}{}%
+\contentsline {figure}{\numberline {3.7}{\ignorespaces Flow Chart of the Different Software Processes}}{41}{}%
+\contentsline {figure}{\numberline {3.8}{\ignorespaces System Idle Mode Process Flow Chart}}{43}{}%
+\contentsline {figure}{\numberline {3.9}{\ignorespaces From Scanning to Mapped Point Cloud Data Flow Chart}}{45}{}%
+\contentsline {figure}{\numberline {3.10}{\ignorespaces Flow Chart of the System's Volume Measurement Process}}{47}{}%
+\contentsline {figure}{\numberline {3.11}{\ignorespaces Process Flow Chart of Scanner System and Web App}}{50}{}%
+\contentsline {figure}{\numberline {3.12}{\ignorespaces Communication Protocol of the Web Interface and the System}}{52}{}%
+\contentsline {figure}{\numberline {3.13}{\ignorespaces CAD Model Design of the Storage Bin}}{54}{}%
 \addvspace {10\p@ }
-\contentsline {figure}{\numberline {4.1}{\ignorespaces Different View of the CAD Model Design of 3D-PCSS}}{54}{}%
-\contentsline {figure}{\numberline {4.2}{\ignorespaces Actual 3D-PCSS Developed}}{55}{}%
-\contentsline {figure}{\numberline {4.3}{\ignorespaces Specific Components of the System}}{55}{}%
-\contentsline {figure}{\numberline {4.4}{\ignorespaces Nodes, Topics and their Relationships}}{57}{}%
-\contentsline {figure}{\numberline {4.5}{\ignorespaces Main Dashboard of Web Interface}}{60}{}%
-\contentsline {figure}{\numberline {4.6}{\ignorespaces Data Dashboard Section Table}}{60}{}%
-\contentsline {figure}{\numberline {4.7}{\ignorespaces Data Dashboard Section Graph}}{61}{}%
-\contentsline {figure}{\numberline {4.8}{\ignorespaces Constructed Storage Bin Setup}}{63}{}%
-\contentsline {figure}{\numberline {4.9}{\ignorespaces Testing Field Actual System Setup}}{64}{}%
-\contentsline {figure}{\numberline {4.10}{\ignorespaces Constructed Storage Bin Setup}}{65}{}%
-\contentsline {figure}{\numberline {4.11}{\ignorespaces Distribution of the Measured Volume with 37 Trials on Test Case 1}}{67}{}%
-\contentsline {figure}{\numberline {4.12}{\ignorespaces Container with a Known Volume Used for Testing}}{68}{}%
-\contentsline {figure}{\numberline {4.13}{\ignorespaces Different Flour Surface Contour of Test 2.1}}{68}{}%
-\contentsline {figure}{\numberline {4.14}{\ignorespaces Distribution of the Measured Volume on Test Case 2.1}}{69}{}%
-\contentsline {figure}{\numberline {4.15}{\ignorespaces Different Flour Surface Contour of Test 2.2}}{70}{}%
-\contentsline {figure}{\numberline {4.16}{\ignorespaces Distribution of the Measured Volume on Test Case 2.2}}{71}{}%
-\contentsline {figure}{\numberline {4.17}{\ignorespaces Different Flour Surface Contour of Test 2.3}}{72}{}%
-\contentsline {figure}{\numberline {4.18}{\ignorespaces Distribution of the Measured Volume on Test Case 2.3}}{73}{}%
+\contentsline {figure}{\numberline {4.1}{\ignorespaces Different View of the CAD Model Design of 3D Point Cloud Scanner System}}{61}{}%
+\contentsline {figure}{\numberline {4.2}{\ignorespaces Specific Components of the System}}{61}{}%
+\contentsline {figure}{\numberline {4.3}{\ignorespaces Actual 3D Point Cloud Scanner System Developed}}{62}{}%
+\contentsline {figure}{\numberline {4.4}{\ignorespaces Actual Circuit Components of the System}}{63}{}%
+\contentsline {figure}{\numberline {4.5}{\ignorespaces Example of the Volume Estimation Process of the System}}{67}{}%
+\contentsline {figure}{\numberline {4.6}{\ignorespaces Main Dashboard}}{69}{}%
+\contentsline {figure}{\numberline {4.7}{\ignorespaces Data Section}}{70}{}%
+\contentsline {figure}{\numberline {4.8}{\ignorespaces Single Database Schema of the Web Application}}{71}{}%
+\contentsline {figure}{\numberline {4.9}{\ignorespaces Actual Flour Storage Bin Created}}{75}{}%
+\contentsline {figure}{\numberline {4.10}{\ignorespaces Testing Field and The Actual System Setup}}{76}{}%
+\contentsline {figure}{\numberline {4.11}{\ignorespaces Actual Empty Bin and Scanned Point Cloud Data}}{77}{}%
+\contentsline {figure}{\numberline {4.12}{\ignorespaces Actual Web Visualization of Point Cloud and Volume}}{77}{}%
+\contentsline {figure}{\numberline {4.13}{\ignorespaces Container with a Known Volume Used for Testing}}{80}{}%
+\contentsline {figure}{\numberline {4.14}{\ignorespaces Actual and Point Cloud Surface Contour of Test 1}}{80}{}%
+\contentsline {figure}{\numberline {4.15}{\ignorespaces Actual and Point Cloud Surface Contours of Test 2}}{82}{}%
+\contentsline {figure}{\numberline {4.16}{\ignorespaces Actual and Point Cloud Surface Contour of Test 3}}{84}{}%
+\contentsline {figure}{\numberline {4.17}{\ignorespaces Distribution of volume measurements obtained from the system and sounding}}{86}{}%
+\addvspace {10\p@ }
+\addvspace {10\p@ }
 \addvspace {10\p@ }
 \addvspace {10\p@ }

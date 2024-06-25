@@ -74,11 +74,9 @@ A 2D LiDAR scanner, typically used for horizontal plane scanning, can be transfo
 
 A stepper motor was used in the study conducted by \citet{yuan2021} and \citet{kang2018} to rotate a 2D LiDAR. However, in the study conducted by \citet{yuan2021}, the rotating 2D LiDAR with initial motor shaft position defined using a combination of photoelectric switches and shading sheets, to create a 3D point cloud representation of the environment. The main objective of the study was to minimize the cost by utilizing stepper motor. Intensive calibration was conducted to correct the error of the system due to lack of the absolute angle position of the motor, thus, the study focus on calibrating the system by synchronizing the 2D LiDAR with the stepper motor.
 
-In a previous study by \citet{clar2022}, a servo motor was employed to rotate a 2D LiDAR, with calibration performed to synchronize the LiDAR's movement. However, the system in that study relied on a laptop and microcontroller for operation. While adequate for experimental testing, this setup posed challenges for larger-scale deployment due to its size, weight, and power demands. Consequently, there arose a need for a more compact and portable solution to address these limitations.
+In a previous study by \citet{clar2022}, a servo motor was employed to rotate a 2D LiDAR, with calibration performed to synchronize the LiDAR's movement. However, the system in that study relied on a laptop and microcontroller for operation. While adequate for small-scale and laboratory experimental testing, this setup posed challenges for larger-scale deployment due to its size, weight, and power demands. Consequently, there arose a need for a more compact and portable solution to address these limitations.
 
 The primary problem with calibration and synchronization between a 2D lidar and a servo arises from the lack of an absolute angle reference for the servo. Unlike encoders or sensors that provide precise angular measurements, servos typically lack absolute positioning capabilities. Although rotating 2D LiDAR can never replace commercial 3D LiDAR with several reasons, however, rotating 2D LiDAR can be partially used and installed with in terms of static and nonmoving environment \citep{bi2021}.
-
-TODO: ADD AUTHORS THAT USES ADDITIONAL functionality FOR 2D TO 3D
 
 \section{Volume Measurement Using 3D Point Cloud Data}
 
@@ -116,23 +114,23 @@ Table \ref{tab:Point Cloud Volume of Different Objects} shows the percentage err
 	\caption{Point Cloud Volume of Different Model}
 	\label{tab:Point Cloud Volume of Different Objects}
 	\centering
-	\begin{tabular}{|c|c|c|c|}
-		\hline
+	\begin{tabular}{l c c r}
+		\toprule
 		% First row
-		Objects        & True Value (\si{mm^3}) & Estimated Value (\si{mm^3}) & Error (\%) \\
-		\hline
+		\textbf{Objects} & \textbf{True Value (\si{mm^3})} & \textbf{Estimated Value (\si{mm^3})} & \textbf{Error} (\%) \\
+		\midrule
 		% Second row
-		Cube           & 1 000 000              & 1 000 000                   & 0          \\
-		\hline
+		Cube             & 1 000 000                       & 1 000 000                            & 0                   \\
+
 		% Third row
-		Cylinder       & 125.664                & 125.061                     & 0.479      \\
-		\hline
+		Cylinder         & 125.664                         & 125.061                              & 0.479               \\
+
 		% Fourth row
-		Sphere         & 4 188 90.2             & 4 178 966.87                & 0.234      \\
-		\hline
+		Sphere           & 4 188 90.2                      & 4 178 966.87                         & 0.234               \\
+
 		% Fifth row
-		Triangle Prism & 17.321                 & 17.399                      & 0.45       \\
-		\hline
+		Triangle Prism   & 17.321                          & 17.399                               & 0.45                \\
+		\bottomrule
 	\end{tabular}
 \end{table}
 
@@ -265,3 +263,81 @@ Additionally, the review discusses frameworks for point cloud processing, visual
 Furthermore, the integration of Robot Web Tools (RWT) with ROS for remote monitoring of robots has been explored, demonstrating its potential in enabling real-time interaction and control of robots over the web. Several studies have demonstrated the capabilities of RWT in disaster management, cloud robotics, and real-time sensor data analysis.
 
 Given the advancements in point cloud acquisition devices, volume measurement techniques, and web-based robotics interfaces, this study focused on integrating and utilizing these technologies and methods to provide an alternative solution to existing technology used in storage volume calculation. By leveraging existing technologies and methodologies, the aim of this study was to develop a feasible approach for enhancing storage technology especially in volume measurement technology.
+
+\begin{landscape}
+	\begin{table}[h]
+		\begin{threeparttable}
+			\caption{Research Synthesis Matrix}
+			\label{ch2:tab:research-synthesis-matrix}
+			\begin{tabular}{p{2cm}  p{4.3cm} p{4.3cm} p{4.3cm} p{4.3cm}}
+				\toprule
+				\textbf{\thead{Literature}}                                                                                                                                                                                                                              & \textbf{\thead{Specific Objectives}} & \textbf{\thead{Methodology}} & \textbf{\thead{Problem: \\ Unknown/Gap}} & \textbf{\thead{Remarks}}                                                                                                                                                \\ \midrule
+				\citet{kang2018}                                                                                                                                                                                                                                         &
+				To reconstruct complex 3D models using a low-cost 2D LiDAR by integrating an external rotary mechanism. The study sought to evaluate the feasibility and performance of this method in acquiring accurate 3D point cloud data.                           &
+				The study used a 2D low-cost off-the-shelf LiDAR sensor combined with an external rotary mechanism to achieve 3D reconstruction. Experimental tests were conducted to assess the accuracy and effectiveness of this setup in 3D point cloud acquisition. &
+				The research addressed the challenge of using low-cost 2D LiDAR sensors for 3D reconstruction, focusing on the increased complexity in hardware or software required for accurate 3D point cloud acquisition.                                            &
+				Concluded that integrating an external rotary mechanism allows low-cost 2D LiDAR sensors to perform 3D point cloud acquisition effectively. This approach increases system complexity but provides a cost-effective solution for 3D model reconstruction.
+				\\ \midrule
+
+				\citet{yuan2021}                                                                                                                                                                                                                                         &
+				Aimed to create a 3D point cloud representation of the environment using a 2D LiDAR rotated by a stepper motor. The study focused on minimizing                                                                                                          &
+				The methodology involved rotating a 2D LiDAR using a stepper motor with the initial motor shaft position defined by photoelectric switches and                                                                                                           &
+				The research tackled the challenge of synchronizing a 2D LiDAR with a stepper motor for 3D point cloud creation without an absolute angle                                                                                                                &
+				Demonstrated that a 2D LiDAR, when rotated by a stepper motor and properly calibrated, can effectively generate a 3D point                                                                                                                                                                                                                               \\
+				\midrule
+			\end{tabular}
+		\end{threeparttable}
+	\end{table}
+\end{landscape}
+
+\newpage
+
+\begin{landscape}
+	\begin{table*}[ht]
+		\begin{threeparttable}
+			\caption*{\textbf{Table \ref{ch2:tab:research-synthesis-matrix}} (contd.)}
+			\label{ch2:tab:research-synthesis-matrix-contd.}
+			\begin{tabular}{p{2cm}  p{4.3cm} p{4.3cm} p{4.3cm} p{4.3cm}}
+				\midrule
+				{}                                                                                                                                                                                                                               &
+				costs by employing a stepper motor and ensuring accurate system calibration to address errors from the lack of an absolute angle position.                                                                                       &
+				shading sheets. Intensive calibration was conducted to correct system errors by synchronizing the 2D LiDAR with the stepper motor, ensuring accurate 3D point cloud acquisition.                                                 &
+				position. The focus was on developing a cost-effective yet precise solution for 3D data acquisition.                                                                                                                             &
+				representation. The use of photoelectric switches and shading sheets for initial position definition and intensive calibration ensures system accuracy, providing a low-cost solution for 3D environment modeling.                     \\
+				\midrule
+				\citet{clar2022}                                                                                                                                                                                                                 &
+				Aimed to develop a more accurate and efficient method for estimating the volume of raw materials in silos using 3D mapping with point cloud processing.                                                                          &
+				The study used a 2D LiDAR scanner to scan a prototype silo, processed the data with ROS, and converted 2D scans to 3D using an algorithm. Outliers were removed statistically, and the Convex Hull method calculated the volume. &
+				The research addressed the challenge of accurately estimating silo volumes due to uneven surfaces, which conventional methods struggle with. It highlighted the need for a more precise, efficient, and scalable solution.       &
+				Showed that the proposed method significantly improved volume estimation accuracy, however, The study conducted in a laboratory test and needs for large scale and a more compact and portable solution for larger-scale applications. \\
+				\midrule
+			\end{tabular}
+		\end{threeparttable}
+	\end{table*}
+\end{landscape}
+
+\newpage
+
+\begin{landscape}
+	\begin{table*}[ht]
+		\begin{threeparttable}
+			\caption*{\textbf{Table \ref{ch2:tab:research-synthesis-matrix}} (contd.)}
+			\label{ch2:tab:research-synthesis-matrix-contd.}
+			\begin{tabular}{p{2cm}  p{4.3cm} p{4.3cm} p{4.3cm} p{4.3cm}}
+				\midrule
+				\citet{kim2002}                                                                                                                                                                                                        &
+				Aimed to explore and address the convex hull problem in computational geometry, focusing on developing efficient algorithms for its computation.                                                                       &
+				Utilized various techniques, including the Voronoi diagram, Delaunay triangulation, furthest-site Voronoi diagram, furthest-site Delaunay triangulation, and half-space intersection around a point.                   &
+				The research addressed the challenges of accurately computing convex hulls in high-dimensional spaces and resolving issues related to round-off errors in floating-point calculations.                                 &
+				The studies demonstrated that the Qhull program is effective in computing convex hulls, calculating volumes, surface areas, and providing convex hull approximations.                                                    \\
+				\midrule
+				\citet{jeong2018}                                                                                                                                                                                                      &
+				Aimed to develop an explicit hybrid numerical methodology for 3D volume reconstruction from unorganized point clouds, utilizing a modified Allen-Cahn equation and a 3D binary picture segmentation method.            &
+				The study introduced a novel technique combining the modified Allen-Cahn equation with 3D binary picture segmentation for reconstructing 3D volumes from unorganized point clouds.                                     &
+				The research addressed the challenge of efficiently reconstructing 3D volumes, a process essential for various practical applications but often hampered by inefficiencies and lack of robustness in existing methods. &
+				Demonstrated that the proposed hybrid numerical methodology is both efficient and resilient, making it highly suitable for practical applications like 3D model printing from scanned data.                              \\
+				\midrule
+			\end{tabular}
+		\end{threeparttable}
+	\end{table*}
+\end{landscape}
