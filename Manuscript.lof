@@ -14,30 +14,30 @@
 \contentsline {figure}{\numberline {3.4}{\ignorespaces Scan Direction of LiDAR and Movement Direction of the Servo}}{38}{}%
 \contentsline {figure}{\numberline {3.5}{\ignorespaces Synchronization Process of LiDAR and Servo}}{39}{}%
 \contentsline {figure}{\numberline {3.6}{\ignorespaces Nodes, Topics and their Relationships}}{40}{}%
-\contentsline {figure}{\numberline {3.7}{\ignorespaces Flow Chart of the Different Software Processes}}{41}{}%
-\contentsline {figure}{\numberline {3.8}{\ignorespaces System Idle Mode Process Flow Chart}}{43}{}%
-\contentsline {figure}{\numberline {3.9}{\ignorespaces From Scanning to Mapped Point Cloud Data Flow Chart}}{45}{}%
-\contentsline {figure}{\numberline {3.10}{\ignorespaces Flow Chart of the System's Volume Measurement Process}}{47}{}%
-\contentsline {figure}{\numberline {3.11}{\ignorespaces Process Flow Chart of Scanner System and Web App}}{50}{}%
-\contentsline {figure}{\numberline {3.12}{\ignorespaces Communication Protocol of the Web Interface and the System}}{52}{}%
-\contentsline {figure}{\numberline {3.13}{\ignorespaces CAD Model Design of the Storage Bin}}{54}{}%
+\contentsline {figure}{\numberline {3.7}{\ignorespaces Flow Chart of the Different Software Processes}}{42}{}%
+\contentsline {figure}{\numberline {3.8}{\ignorespaces System Idle Mode Process Flow Chart}}{44}{}%
+\contentsline {figure}{\numberline {3.9}{\ignorespaces From Scanning to Mapped Point Cloud Data Flow Chart}}{46}{}%
+\contentsline {figure}{\numberline {3.10}{\ignorespaces Flow Chart of the System's Volume Measurement Process}}{48}{}%
+\contentsline {figure}{\numberline {3.11}{\ignorespaces Process Flow Chart of Scanner System and Web App}}{51}{}%
+\contentsline {figure}{\numberline {3.12}{\ignorespaces Communication Protocol of the Web Interface and the System}}{53}{}%
+\contentsline {figure}{\numberline {3.13}{\ignorespaces CAD Model Design of the Storage Bin}}{55}{}%
 \addvspace {10\p@ }
-\contentsline {figure}{\numberline {4.1}{\ignorespaces Different View of the CAD Model Design of 3D Point Cloud Scanner System}}{61}{}%
-\contentsline {figure}{\numberline {4.2}{\ignorespaces Specific Components of the System}}{61}{}%
-\contentsline {figure}{\numberline {4.3}{\ignorespaces Actual 3D Point Cloud Scanner System Developed}}{62}{}%
-\contentsline {figure}{\numberline {4.4}{\ignorespaces Actual Circuit Components of the System}}{63}{}%
-\contentsline {figure}{\numberline {4.5}{\ignorespaces Example of the Volume Estimation Process of the System}}{67}{}%
-\contentsline {figure}{\numberline {4.6}{\ignorespaces Main Dashboard}}{69}{}%
-\contentsline {figure}{\numberline {4.7}{\ignorespaces Data Section}}{70}{}%
-\contentsline {figure}{\numberline {4.8}{\ignorespaces Single Database Schema of the Web Application}}{71}{}%
-\contentsline {figure}{\numberline {4.9}{\ignorespaces Actual Flour Storage Bin Created}}{75}{}%
-\contentsline {figure}{\numberline {4.10}{\ignorespaces Testing Field and The Actual System Setup}}{76}{}%
-\contentsline {figure}{\numberline {4.11}{\ignorespaces Actual Empty Bin and Scanned Point Cloud Data}}{77}{}%
-\contentsline {figure}{\numberline {4.12}{\ignorespaces Actual Web Visualization of Point Cloud and Volume}}{77}{}%
-\contentsline {figure}{\numberline {4.13}{\ignorespaces Container with a Known Volume Used for Testing}}{80}{}%
-\contentsline {figure}{\numberline {4.14}{\ignorespaces Actual and Point Cloud Surface Contour of Test 1}}{80}{}%
-\contentsline {figure}{\numberline {4.15}{\ignorespaces Actual and Point Cloud Surface Contours of Test 2}}{82}{}%
-\contentsline {figure}{\numberline {4.16}{\ignorespaces Actual and Point Cloud Surface Contour of Test 3}}{84}{}%
+\contentsline {figure}{\numberline {4.1}{\ignorespaces Different View of the CAD Model Design of 3D Point Cloud Scanner System}}{62}{}%
+\contentsline {figure}{\numberline {4.2}{\ignorespaces Specific Components of the System}}{62}{}%
+\contentsline {figure}{\numberline {4.3}{\ignorespaces Actual 3D Point Cloud Scanner System Developed}}{63}{}%
+\contentsline {figure}{\numberline {4.4}{\ignorespaces Actual Circuit Components of the System}}{64}{}%
+\contentsline {figure}{\numberline {4.5}{\ignorespaces Example of the Volume Estimation Process of the System}}{64}{}%
+\contentsline {figure}{\numberline {4.6}{\ignorespaces Main Dashboard}}{68}{}%
+\contentsline {figure}{\numberline {4.7}{\ignorespaces Data Section}}{69}{}%
+\contentsline {figure}{\numberline {4.8}{\ignorespaces Single Database Schema of the Web Application}}{70}{}%
+\contentsline {figure}{\numberline {4.9}{\ignorespaces Actual Flour Storage Bin Created}}{73}{}%
+\contentsline {figure}{\numberline {4.10}{\ignorespaces Testing Field and The Actual System Setup}}{75}{}%
+\contentsline {figure}{\numberline {4.11}{\ignorespaces Actual Empty Bin and Scanned Point Cloud Data}}{76}{}%
+\contentsline {figure}{\numberline {4.12}{\ignorespaces Actual Web Visualization of Point Cloud and Volume}}{76}{}%
+\contentsline {figure}{\numberline {4.13}{\ignorespaces Container with a Known Volume Used for Testing}}{79}{}%
+\contentsline {figure}{\numberline {4.14}{\ignorespaces Actual and Point Cloud Surface Contour of Test 1}}{79}{}%
+\contentsline {figure}{\numberline {4.15}{\ignorespaces Actual and Point Cloud Surface Contours of Test 2}}{81}{}%
+\contentsline {figure}{\numberline {4.16}{\ignorespaces Actual and Point Cloud Surface Contour of Test 3}}{83}{}%
 \contentsline {figure}{\numberline {4.17}{\ignorespaces Distribution of volume measurements obtained from the system and sounding}}{86}{}%
 \addvspace {10\p@ }
 \addvspace {10\p@ }

@@ -33,7 +33,7 @@ LiDAR, a remote sensing technology, employs laser light to create precise 2D or 
 	\label{fig:Typical LiDAR System}
 \end{figure}
 
-A 360-degree scan of a LiDAR is generally obtained as shown in figure \ref{fig:360-dgree-lidar-scan} to produce a 2D map, a typical scan using the robot's top-mounted 2D LIDAR. The axis of the rotating LIDAR sensor is shown as a red line. The border of the surrounding obstacles is indicated in blue \citep{sarker2020}.
+A 360-degree scan of a LiDAR is generally obtained as shown in Figure \ref{fig:360-dgree-lidar-scan} to produce a 2D map, a typical scan using the robot's top-mounted 2D LIDAR. The axis of the rotating LIDAR sensor is shown as a red line. The border of the surrounding obstacles is indicated in blue \citep{sarker2020}.
 
 \begin{figure}[H]
 	\centering
@@ -43,7 +43,7 @@ A 360-degree scan of a LiDAR is generally obtained as shown in figure \ref{fig:3
 \end{figure}
 
 \subsection{Rotating 2D LiDAR Scanner into a 3D Point Cloud Scanner: Mechanisms and Techniques}
-A 2D LiDAR scanner, typically used for horizontal plane scanning, can be transformed into a 3D point cloud scanner with the addition of extra components and processing techniques. One common method involves incorporating a rotating mechanism, such as a pan-tilt unit (PTU), to the 2D LiDAR. As the LiDAR rotates, it collects data points at various angles, generating a series of 2D scans. These scans are then combined and processed using algorithms to reconstruct a 3D representation of the surroundings. Integrating the 2D LiDAR device with electric motors into various configurations enables the acquisition of 3D scans. Figure \ref{fig:four_different_configurations} illustrates four such configurations: pitching, rolling, yawing, and top yawing scans \citep{raj2020}.
+A 2D LiDAR scanner, typically used for horizontal plane scanning, can be transformed into a 3D point cloud scanner with the addition of extra components and processing techniques. One common method involves incorporating a rotating mechanism, such as a pan-tilt unit (PTU), to the 2D LiDAR. As the LiDAR rotates, it collects data points at various angles, generating a series of 2D scans. These scans are then combined and processed using algorithms to reconstruct a 3D representation of the surroundings. Integrating the 2D LiDAR device with electric motors into various configurations enables the acquisition of 3D scans. Figure \ref{fig:four_different_configurations} illustrates four such configurations scans \citep{raj2020}.
 
 \begin{figure}[H]
 	\centering
@@ -99,7 +99,7 @@ The Delaunay triangulation-based technique for volume computation, known as Dela
 
 In computer graphics, a voxel is an image that depicts a specific region that has been partitioned into a grid of cubes that are all the same size and uniformly spaced \citep{putman2018}.
 
-The Convex Hull is another method that is popular technique for measuring volume from 3D point cloud points (see figure \ref{fig:convex hull}). The computational geometry community has extensively studied the convex hull problem, as evidenced by the works of \citet{kim2002}, \citet{graham1983}, and \citet{maus1984}. Qhull is a commonly used algorithm to compute the convex hull, employing the Voronoi diagram, the Delaunay triangulation, furthest-site Voronoi diagram, the furthest-site Delauney triangulation, and the half-space intersection around a point. The software program allows the creation of high-dimensional objects, and the Quickhull algorithm, written in C, is used to compute the convex hull, which solves round-off errors in floating-point arithmetic. The program is capable of calculating volumes, surface areas, and convex hull approximations.
+The Convex Hull is another method that is popular technique for measuring volume from 3D point cloud points (see Figure \ref{fig:convex hull}). The computational geometry community has extensively studied the convex hull problem, as evidenced by the works of \citet{kim2002}, \citet{graham1983}, and \citet{maus1984}. Qhull is a commonly used algorithm to compute the convex hull, employing the Voronoi diagram, the Delaunay triangulation, furthest-site Voronoi diagram, the furthest-site Delauney triangulation, and the half-space intersection around a point. The software program allows the creation of high-dimensional objects, and the Quickhull algorithm, written in C, is used to compute the convex hull, which solves round-off errors in floating-point arithmetic. The program is capable of calculating volumes, surface areas, and convex hull approximations.
 
 \begin{figure}[H]
 	\centering

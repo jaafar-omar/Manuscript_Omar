@@ -15,7 +15,7 @@
 \contentsline {section}{\numberline {1.6}Significance of the Study}{6}{}%
 \contentsline {section}{\numberline {1.7}Conceptual Framework}{6}{}%
 \contentsline {section}{\numberline {1.8}Theoretical Framework}{8}{}%
-\contentsline {subsection}{\numberline {1.8.1}Calculating Storage Materials Volume using Depth Measurement}{8}{}%
+\contentsline {subsection}{\numberline {1.8.1}Calculating Storage Materials Volume Using Depth Measurement}{8}{}%
 \contentsline {subsection}{\numberline {1.8.2}3D Polar Coordinate to Cartesian Coordinate}{9}{}%
 \contentsline {subsection}{\numberline {1.8.3}Point Cloud Data}{10}{}%
 \contentsline {subsection}{\numberline {1.8.4}Computational Geometry using Convex Hull}{10}{}%
@@ -37,46 +37,46 @@
 \contentsline {subsubsection}{\numberline {3.1.1.1}2D LiDAR Scanner}{36}{}%
 \contentsline {subsubsection}{\numberline {3.1.1.2}Rotating Mechanism}{37}{}%
 \contentsline {subsection}{\numberline {3.1.2}Software Development}{39}{}%
-\contentsline {subsubsection}{\numberline {3.1.2.1}Operating System and Frameworks}{41}{}%
-\contentsline {subsubsection}{\numberline {3.1.2.2}Startup Initialization Process}{42}{}%
-\contentsline {subsubsection}{\numberline {3.1.2.3}System Scanning Process}{43}{}%
-\contentsline {subsubsection}{\numberline {3.1.2.4}Volume Measurement Process}{45}{}%
-\contentsline {section}{\numberline {3.2}Web Application Development}{48}{}%
-\contentsline {subsection}{\numberline {3.2.1}Different Tools and Framework}{48}{}%
-\contentsline {subsection}{\numberline {3.2.2}Dashboard Development}{50}{}%
-\contentsline {subsection}{\numberline {3.2.3}Overall System Integration}{50}{}%
-\contentsline {section}{\numberline {3.3}System Testing and Evaluation}{52}{}%
-\contentsline {subsection}{\numberline {3.3.1}LiDAR and Servo Calibration Test}{52}{}%
-\contentsline {subsection}{\numberline {3.3.2}System Volume Measurement Calibration Test}{53}{}%
-\contentsline {subsubsection}{\numberline {3.3.2.1}Testing Setup}{53}{}%
-\contentsline {subsubsection}{\numberline {3.3.2.2}Empty Storage Volume Measurement Calibration}{55}{}%
-\contentsline {subsubsection}{\numberline {3.3.2.3}Different Volume Quantity Measurement Calibration}{55}{}%
-\contentsline {subsubsection}{\numberline {3.3.2.4}Volume Measurement Using the System and Sounding Method Test}{56}{}%
-\contentsline {subsection}{\numberline {3.3.3}System Evaluation}{57}{}%
-\contentsline {subsubsection}{\numberline {3.3.3.1}LiDAR Range Evaluation}{57}{}%
-\contentsline {subsubsection}{\numberline {3.3.3.2}Servo Angle Evaluation}{57}{}%
-\contentsline {subsubsection}{\numberline {3.3.3.3}Empty Storage Bin Volume Measurement Evaluation}{58}{}%
-\contentsline {subsubsection}{\numberline {3.3.3.4}Different Volume Quatity Measurement Evaluation}{58}{}%
-\contentsline {subsubsection}{\numberline {3.3.3.5}Comparison Evaluation of the System and Sounding Method}{59}{}%
-\contentsline {chapter}{\numberline {IV}Result and Discussion}{60}{}%
-\contentsline {section}{\numberline {4.1}3D Point Cloud Scanner System}{60}{}%
-\contentsline {subsection}{\numberline {4.1.1}Actual Prototype of the 3D Point Cloud Scanner System}{62}{}%
-\contentsline {subsection}{\numberline {4.1.2}Software Development Result}{63}{}%
-\contentsline {section}{\numberline {4.2}Web Application Implementation}{68}{}%
-\contentsline {subsection}{\numberline {4.2.1}Overall System Integration}{71}{}%
-\contentsline {section}{\numberline {4.3}System Testing and Evaluation Result}{71}{}%
-\contentsline {subsection}{\numberline {4.3.1}LiDAR and Servo Calibration Test Result}{71}{}%
-\contentsline {subsubsection}{\numberline {4.3.1.1}LiDAR Range Calibration}{72}{}%
-\contentsline {subsubsection}{\numberline {4.3.1.2}Servo Angle Calibration}{72}{}%
-\contentsline {subsection}{\numberline {4.3.2}System Volume Measurement Calibration Result}{73}{}%
-\contentsline {subsubsection}{\numberline {4.3.2.1}Testing Setup Result}{73}{}%
-\contentsline {subsubsection}{\numberline {4.3.2.2}Empty Storage Volume Measurement Calibration Test Result}{76}{}%
-\contentsline {subsubsection}{\numberline {4.3.2.3}Different Volume Quantity Measurement Calibration Test Result}{79}{}%
-\contentsline {subsubsection}{\numberline {4.3.2.4}Volume Measurement Using the System and Sounding Method Result}{85}{}%
-\contentsline {subsection}{\numberline {4.3.3}System Evaluation}{88}{}%
+\contentsline {subsubsection}{\numberline {3.1.2.1}Operating System and Frameworks}{42}{}%
+\contentsline {subsubsection}{\numberline {3.1.2.2}Startup Initialization Process}{43}{}%
+\contentsline {subsubsection}{\numberline {3.1.2.3}System Scanning Process}{44}{}%
+\contentsline {subsubsection}{\numberline {3.1.2.4}Volume Measurement Process}{46}{}%
+\contentsline {section}{\numberline {3.2}Web Application Development}{49}{}%
+\contentsline {subsection}{\numberline {3.2.1}Different Tools and Framework}{49}{}%
+\contentsline {subsection}{\numberline {3.2.2}Dashboard Development}{51}{}%
+\contentsline {subsection}{\numberline {3.2.3}Overall System Integration}{51}{}%
+\contentsline {section}{\numberline {3.3}System Testing and Evaluation}{53}{}%
+\contentsline {subsection}{\numberline {3.3.1}LiDAR and Servo Calibration Test}{53}{}%
+\contentsline {subsection}{\numberline {3.3.2}System Volume Measurement Calibration Test}{54}{}%
+\contentsline {subsubsection}{\numberline {3.3.2.1}Testing Setup}{54}{}%
+\contentsline {subsubsection}{\numberline {3.3.2.2}Empty Storage Volume Measurement Calibration}{56}{}%
+\contentsline {subsubsection}{\numberline {3.3.2.3}Different Volume Quantity Measurement Calibration}{56}{}%
+\contentsline {subsubsection}{\numberline {3.3.2.4}Volume Measurement Using the System and Sounding Method Test}{57}{}%
+\contentsline {subsection}{\numberline {3.3.3}System Evaluation}{58}{}%
+\contentsline {subsubsection}{\numberline {3.3.3.1}LiDAR Range Evaluation}{58}{}%
+\contentsline {subsubsection}{\numberline {3.3.3.2}Servo Angle Evaluation}{58}{}%
+\contentsline {subsubsection}{\numberline {3.3.3.3}Empty Storage Bin Volume Measurement Evaluation}{59}{}%
+\contentsline {subsubsection}{\numberline {3.3.3.4}Different Volume Quatity Measurement Evaluation}{59}{}%
+\contentsline {subsubsection}{\numberline {3.3.3.5}Comparison Evaluation of the System and Sounding Method}{60}{}%
+\contentsline {chapter}{\numberline {IV}Result and Discussion}{61}{}%
+\contentsline {section}{\numberline {4.1}3D Point Cloud Scanner System}{61}{}%
+\contentsline {subsection}{\numberline {4.1.1}Actual Prototype of the 3D Point Cloud Scanner System}{63}{}%
+\contentsline {subsection}{\numberline {4.1.2}Software Development Result}{64}{}%
+\contentsline {section}{\numberline {4.2}Web Application Implementation}{67}{}%
+\contentsline {subsection}{\numberline {4.2.1}Overall System Integration}{70}{}%
+\contentsline {section}{\numberline {4.3}System Testing and Evaluation Result}{70}{}%
+\contentsline {subsection}{\numberline {4.3.1}LiDAR and Servo Calibration Test Result}{70}{}%
+\contentsline {subsubsection}{\numberline {4.3.1.1}LiDAR Range Calibration}{71}{}%
+\contentsline {subsubsection}{\numberline {4.3.1.2}Servo Angle Calibration}{71}{}%
+\contentsline {subsection}{\numberline {4.3.2}System Volume Measurement Calibration Result}{72}{}%
+\contentsline {subsubsection}{\numberline {4.3.2.1}Testing Setup Result}{72}{}%
+\contentsline {subsubsection}{\numberline {4.3.2.2}Empty Storage Volume Measurement Calibration Test Result}{75}{}%
+\contentsline {subsubsection}{\numberline {4.3.2.3}Different Volume Quantity Measurement Calibration Test Result}{78}{}%
+\contentsline {subsubsection}{\numberline {4.3.2.4}Volume Measurement Using the System and Sounding Method Result}{84}{}%
+\contentsline {subsection}{\numberline {4.3.3}System Evaluation}{87}{}%
 \contentsline {subsubsection}{\numberline {4.3.3.1}LiDAR Calibration Evaluation}{88}{}%
 \contentsline {subsubsection}{\numberline {4.3.3.2}Servo Calibration Evaluation}{88}{}%
-\contentsline {subsubsection}{\numberline {4.3.3.3}Empty Storage Volume Measurement}{89}{}%
+\contentsline {subsubsection}{\numberline {4.3.3.3}Empty Storage Volume Measurement}{88}{}%
 \contentsline {subsubsection}{\numberline {4.3.3.4}Different Volume Quantity Measurement}{89}{}%
 \contentsline {subsubsection}{\numberline {4.3.3.5}Comparison Evaluation of the System and Sounding Method}{90}{}%
 \contentsline {chapter}{\numberline {V}Conclusion and Recommendation}{91}{}%
@@ -84,7 +84,8 @@
 \contentsline {section}{\numberline {5.2}Recommendations}{92}{}%
 \contentsline {chapter}{\MakeUppercase []{References}\vspace {-0.5cm}}{92}{}%
 \contentsline {chapter}{\MakeUppercase []{Appendices}\vspace {-0.5cm}}{99}{}%
-\contentsline {chapter}{\numberline {A}Components Specification}{100}{}%
-\contentsline {chapter}{\numberline {B}Testing Documentation}{105}{}%
-\contentsline {chapter}{\numberline {C}STATISTICAL DATA}{117}{}%
-\contentsline {chapter}{\MakeUppercase []{Certificate of Authentic Authorship}\vspace {-0.5cm}}{119}{}%
+\contentsline {chapter}{\numberline {A}COMPONENTS SPECIFICATION}{100}{}%
+\contentsline {chapter}{\numberline {B}TESTING DOCUMENTATION}{106}{}%
+\contentsline {chapter}{\numberline {C}STATISTICAL DATA}{119}{}%
+\contentsline {chapter}{\MakeUppercase []{CURRICULUM VITAE}\vspace {-0.5cm}}{120}{}%
+\contentsline {chapter}{\MakeUppercase []{Certificate of Authentic Authorship}\vspace {-0.5cm}}{122}{}%
