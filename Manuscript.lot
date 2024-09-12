@@ -5,20 +5,20 @@
 \addvspace {10\p@ }
 \contentsline {table}{\numberline {3.1}{\ignorespaces Tools and Frameworks Used in the Web Application}}{50}{}%
 \addvspace {10\p@ }
-\contentsline {table}{\numberline {4.1}{\ignorespaces LiDAR Range Calibration Results}}{71}{}%
-\contentsline {table}{\numberline {4.2}{\ignorespaces Sevo Angle Calibration Results}}{72}{}%
-\contentsline {table}{\numberline {4.3}{\ignorespaces Individual and Total Volume of the Storage Bin}}{74}{}%
-\contentsline {table}{\numberline {4.4}{\ignorespaces Actual and Measured Volume of Empty Storage Bin Volume Measurement Result}}{77}{}%
-\contentsline {table}{\numberline {4.5}{\ignorespaces Volume Measurements Calibration Result of the System Across Two Contours with A Known Volume of 0.0594 $m^3$}}{80}{}%
-\contentsline {table}{\numberline {4.6}{\ignorespaces Volume Measurements Calibration Result of the System Across Two Contours with A Known Volume of 0.4752 $m^3$}}{82}{}%
-\contentsline {table}{\numberline {4.7}{\ignorespaces Volume Measurements Calibration Result of the System Across Two Contours with A Known Volume of 0.7128 $m^3$}}{84}{}%
-\contentsline {table}{\numberline {4.8}{\ignorespaces Comparison of Volume Measurement Using the 3D Point Cloud Scanner System and Traditional Sounding Method for Different Surface Contours}}{85}{}%
-\contentsline {table}{\numberline {4.9}{\ignorespaces One Sample-test for Comparison of Volume Measurement of the System VS. Sounding Method}}{87}{}%
+\contentsline {table}{\numberline {4.1}{\ignorespaces LiDAR Range Calibration Results}}{72}{}%
+\contentsline {table}{\numberline {4.2}{\ignorespaces Sevo Angle Calibration Results}}{73}{}%
+\contentsline {table}{\numberline {4.3}{\ignorespaces Individual and Total Volume of the Storage Bin}}{75}{}%
+\contentsline {table}{\numberline {4.4}{\ignorespaces Actual and Measured Volume of Empty Storage Bin Volume Measurement Result}}{78}{}%
+\contentsline {table}{\numberline {4.5}{\ignorespaces One Sample-test for Actual and Measured Volume of Empty Storage Bin Volume Measurement Result}}{79}{}%
+\contentsline {table}{\numberline {4.6}{\ignorespaces Volume Measurements Calibration Result of the System Across Two Contours with A Known Volume of 0.0594 $m^3$}}{81}{}%
+\contentsline {table}{\numberline {4.7}{\ignorespaces Volume Measurements Calibration Result of the System Across Two Contours with A Known Volume of 0.4752 $m^3$}}{83}{}%
+\contentsline {table}{\numberline {4.8}{\ignorespaces Volume Measurements Calibration Result of the System Across Two Contours with A Known Volume of 0.7128 $m^3$}}{84}{}%
+\contentsline {table}{\numberline {4.9}{\ignorespaces ANOVA Results of Volume Measurements Calibration Result of the System Across Two Contours with A Known Volume of 0.0594 $m^3$}}{85}{}%
+\contentsline {table}{\numberline {4.10}{\ignorespaces ANOVA Results of Volume Measurements Calibration Result of the System Across Two Contours with A Known Volume of 0.4752 $m^3$}}{85}{}%
+\contentsline {table}{\numberline {4.11}{\ignorespaces ANOVA Results of Volume Measurements Calibration Result of the System Across Two Contours with A Known Volume of 0.7128 $m^3$}}{85}{}%
+\contentsline {table}{\numberline {4.12}{\ignorespaces Comparison of Volume Measurement Using the 3D Point Cloud Scanner System and Traditional Sounding Method for Different Surface Contours}}{86}{}%
+\contentsline {table}{\numberline {4.13}{\ignorespaces One Sample-test for Comparison of Volume Measurement of the System VS. Sounding Method}}{88}{}%
 \addvspace {10\p@ }
 \addvspace {10\p@ }
 \addvspace {10\p@ }
 \addvspace {10\p@ }
-\contentsline {table}{\numberline {C.1}{\ignorespaces One Sample-test for Actual and Measured Volume of Empty Storage Bin Volume Measurement Result}}{119}{}%
-\contentsline {table}{\numberline {C.2}{\ignorespaces ANOVA Results of Volume Measurements Calibration Result of the System Across Two Contours with A Known Volume of 0.0594 $m^3$}}{119}{}%
-\contentsline {table}{\numberline {C.3}{\ignorespaces ANOVA Results of Volume Measurements Calibration Result of the System Across Two Contours with A Known Volume of 0.4752 $m^3$}}{119}{}%
-\contentsline {table}{\numberline {C.4}{\ignorespaces ANOVA Results of Volume Measurements Calibration Result of the System Across Two Contours with A Known Volume of 0.7128 $m^3$}}{119}{}%
